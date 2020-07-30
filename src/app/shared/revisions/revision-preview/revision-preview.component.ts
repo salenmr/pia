@@ -47,7 +47,6 @@ export class RevisionPreviewComponent implements OnInit {
   ngOnInit() {}
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log('changement', changes.revision);
     if (changes.revision && changes.revision.currentValue) {
       // CONSTRUC A NEW PIA FOR THE PREVIEW MODE
       this.pia = new Pia();
@@ -220,9 +219,7 @@ export class RevisionPreviewComponent implements OnInit {
 
   public restoreRevision() {
     this._modalsService.closeModal();
-    console.log('hello final');
     this._revisionService.prepareLoadRevision(this.revision.id, this.pia.id).then((createdAt: Date) => {
-      console.log(createdAt);
       this._modalsService.revisionDate = new Date(createdAt);
       this._modalsService.openModal('revision-selection');
     });

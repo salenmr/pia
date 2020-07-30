@@ -92,7 +92,13 @@
             <div class="pia-newBlock-item-new-title">{{ 'homepage.cards.new_pia' | translate }}</div>
             <div class="pia-newBlock-item-new-btn">
               <i class="fa fa-folder-open" aria-hidden="true"></i>
-              <button class="btn" (click)="newPIA()" type="button" title="{{ 'homepage.cards.placeholder_new_pia' | translate }}"><span class="pia-icons pia-icon-pia-plus"></span></button>
+              <button
+                class="btn"
+                (click)="newPIA()"
+                type="button"
+                title="{{ 'homepage.cards.placeholder_new_pia' | translate }}">
+                <span class="pia-icons pia-icon-pia-plus"></span>
+              </button>
             </div>
           </div>
           <span>{{ 'homepage.cards.or' | translate }}</span>
@@ -100,7 +106,9 @@
             <div class="pia-newBlock-item-import-title">{{ 'homepage.cards.import_pia' | translate }}</div>
             <div class="pia-newBlock-item-import-btn">
               <i class="fa fa-upload" aria-hidden="true"></i>
-              <button class="btn" (click)="importPia()" type="button" title="{{ 'homepage.cards.placeholder_import_pia' | translate }}"><span class="pia-icons pia-icon-pia-plus"></span></button>
+              <button class="btn" (click)="importPia()" type="button" title="{{ 'homepage.cards.placeholder_import_pia' | translate }}">
+                  <span class="pia-icons pia-icon-pia-plus"></span>
+              </button>
             </div>
           </div>
         </div>
@@ -114,19 +122,38 @@
               </div>
               <div>
                 <label for="author_name">{{ 'homepage.cards.author' | translate }}</label>
-                <input formControlName="author_name" type="text" placeholder="{{ 'homepage.cards.placeholder_author' | translate }}" id="author_name" required>
+                <input
+                  formControlName="author_name"
+                  type="text"
+                  placeholder="{{ 'homepage.cards.placeholder_author' | translate }}"
+                  id="author_name"
+                  required>
               </div>
               <div>
                 <label for="evaluator_name">{{ 'homepage.cards.evaluation' | translate }}</label>
-                <input formControlName="evaluator_name" type="text" placeholder="{{ 'homepage.cards.placeholder_evaluation' | translate }}" id="evaluator_name" required>
+                <input
+                  formControlName="evaluator_name"
+                  type="text"
+                  placeholder="{{ 'homepage.cards.placeholder_evaluation' | translate }}"
+                  id="evaluator_name"
+                  required>
               </div>
               <div>
                 <label for="validator_name">{{ 'homepage.cards.validation' | translate }}</label>
-                <input formControlName="validator_name" type="text" placeholder="{{ 'homepage.cards.placeholder_validation' | translate }}" id="validator_name" required>
+                <input
+                  formControlName="validator_name"
+                  type="text"
+                  placeholder="{{ 'homepage.cards.placeholder_validation' | translate }}"
+                  id="validator_name"
+                  required>
               </div>
               <div>
                 <label for="category">{{ 'homepage.cards.category' | translate }}</label>
-                <input formControlName="category" type="text" placeholder="{{ 'homepage.cards.placeholder_category' | translate }}" id="category">
+                <input
+                  formControlName="category"
+                  type="text"
+                  placeholder="{{ 'homepage.cards.placeholder_category' | translate }}"
+                  id="category">
               </div>
               <div>
                 <label for="structure">{{ 'homepage.cards.structure' | translate }}</label>
@@ -137,17 +164,10 @@
                   </select>
                 </div>
               </div>
-              <div class="pia-cardsBlock-item-btn">
+              <div class="pia-cardsBlock-item-btn" style="padding-top:26px;">
                 <button type="submit" [disabled]="piaForm.invalid" class="btn btn-green" id="pia-save-card-btn" title="{{ 'homepage.cards.placeholder_start' | translate }}">{{ 'homepage.cards.start' | translate }}</button>
               </div>
             </form>
-          </div>
-        </div>
-        <div class="pia-newBlock-hint" *ngIf="_piaService.pias && _piaService.pias.length === 0" id="pia-rocket">
-          <span class="pia-icons pia-icon-small-arrow"></span>
-          <div>
-            <span class="pia-icons pia-icon-rocket"></span>
-            <p [innerHTML]="'homepage.filters.card_rocket_content' | translate"></p>
           </div>
         </div>
       </div>
@@ -168,7 +188,7 @@
               <th>
                 <a (click)="sortBy('name')">
                   <span>{{ 'homepage.lists.column_pia' | translate }}</span>
-                  <i class="fa" 
+                  <i class="fa"
                     [ngClass]="[sortValue === 'name' ? 'fa-caret-' + sortOrder : 'fa-caret-down desactivate']"></i>
                 </a>
               </th>

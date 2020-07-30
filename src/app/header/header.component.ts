@@ -10,6 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { PiaService } from 'src/app/services/pia.service';
 import { ModalsService } from 'src/app/modals/modals.service';
 import { LanguagesService } from 'src/app/services/languages.service';
+import { IntrojsService } from '../services/introjs.service';
 
 import piaExample from 'src/assets/files/2018-02-21-pia-example.json';
 
@@ -17,23 +18,27 @@ import piaExample from 'src/assets/files/2018-02-21-pia-example.json';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  providers: [PiaService],
+  providers: [PiaService]
 })
 export class HeaderComponent implements OnInit {
   public increaseContrast: string;
   appVersion: string;
   pia_is_example: boolean;
   pia_example: Pia;
+  isKnowledgeHeader: boolean;
   isStructureHeader: boolean;
   isArchiveHeader: boolean;
 
-  constructor(public _router: Router,
-              private renderer: Renderer2,
-              private _translateService: TranslateService,
-              public _piaService: PiaService,
-              private _modalsService: ModalsService,
-              private httpClient: HttpClient,
-              public _languagesService: LanguagesService) {
+  constructor(
+    public _router: Router,
+    private renderer: Renderer2,
+    private _translateService: TranslateService,
+    public _piaService: PiaService,
+    private _modalsService: ModalsService,
+    private httpClient: HttpClient,
+    public _languagesService: LanguagesService,
+    private _introjsService: IntrojsService
+  ) {
     this.updateContrast();
   }
 
@@ -42,7 +47,7 @@ export class HeaderComponent implements OnInit {
     window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
     window.onresize = () => {
       window.screenTop === 0 && window.screenY === 0 ? displayMessage.classList.remove('hide') : displayMessage.classList.add('hide');
-    }
+    };
     this.appVersion = environment.version;
     this.pia_is_example = false;
     this._piaService.getPIA().then(() => {
@@ -59,6 +64,25 @@ export class HeaderComponent implements OnInit {
     if (this._router.url.indexOf('/archives/') > -1) {
       this.isArchiveHeader = true;
     }
+    if (this._router.url.indexOf('/knowledges') > -1) {
+      this.isKnowledgeHeader = true;
+    }
+  }
+
+  /**
+   * Restart the onboarding module for the current user
+   */
+  restartOnboarding() {
+    localStorage.removeItem('onboardingEvaluationConfirmed');
+    localStorage.removeItem('onboardingDashboardConfirmed');
+    localStorage.removeItem('onboardingEntryConfirmed');
+    localStorage.removeItem('onboardingValidatedConfirmed');
+    // location.reload();
+    this._introjsService.reset();
+    let currentUrl = this._router.url;
+    this._router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+      this._router.navigate([currentUrl]);
+    });
   }
 
   /**

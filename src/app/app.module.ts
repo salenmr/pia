@@ -35,6 +35,7 @@ import { AboutComponent } from './about/about.component';
 
 import { StructuresModule } from './structures/structures.module';
 import { ArchivesModule } from './archives/archives.module';
+import { KnowledgesModule } from './knowledges/knowledges.module';
 
 import { MeasuresComponent } from './entry/entry-content/measures/measures.component';
 import { QuestionsComponent } from './entry/entry-content/questions/questions.component';
@@ -43,8 +44,11 @@ import { PreviewComponent } from './preview/preview.component';
 import { ExportComponent } from './shared/export/export.component';
 import { RevisionsComponent } from './shared/revisions/revisions.component';
 import { LoadingOverlayComponent } from './shared/loading-overlay/loading-overlay.component';
+import { KnowledgesService } from './services/knowledges.service';
+import { IntrojsService } from './services/introjs.service';
 
 @NgModule({
+  providers: [KnowledgesService, IntrojsService],
   declarations: [
     AppComponent,
     AuthenticationComponent,
@@ -78,7 +82,16 @@ import { LoadingOverlayComponent } from './shared/loading-overlay/loading-overla
     RevisionsComponent,
     LoadingOverlayComponent
   ],
-  imports: [SharedModule, BrowserModule, BrowserAnimationsModule, StructuresModule, ArchivesModule, Angular2CsvModule, PdfJsViewerModule],
+  imports: [
+    SharedModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    StructuresModule,
+    ArchivesModule,
+    Angular2CsvModule,
+    PdfJsViewerModule,
+    KnowledgesModule
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

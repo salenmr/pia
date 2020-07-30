@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-  <nav class="pia-navigationBlock" [ngClass]="{'pia-navigationBlock-structures' : isStructureHeader, 'pia-navigationBlock-archives' : isArchiveHeader }">
+  <nav class="pia-navigationBlock" [ngClass]="{'pia-navigationBlock-structures' : isStructureHeader, 'pia-navigationBlock-archives' : isArchiveHeader, 'pia-navigationBlock-knowledges' : isKnowledgeHeader}">
     <div class="container">
       <div class="row">
         <div class="small-12 medium-12 columns">
@@ -26,8 +26,11 @@
                 <li><a routerLink="/archives">{{ 'header.archives' | translate }}</a></li>
               </ul>
             </li>
-            <li [ngClass]="{'pia-navigationBlock-structures' : isStructureHeader}">
+            <li class="pia-navigationBlock-noSub" [ngClass]="{'pia-navigationBlock-structures' : isStructureHeader}">
               <a style="text-transform:uppercase;" routerLink="/structures">{{ 'header.structures' | translate }}</a>
+            </li>
+            <li class="pia-navigationBlock-noSub" [ngClass]="{'pia-navigationBlock-knowledges' : isKnowledgeHeader}">
+              <a style="text-transform:uppercase;" routerLink="/knowledges">{{ 'header.knowledge_base_link' | translate }}</a>
             </li>
           </ul>
           <ul class="pia-navigationBlock-list">
@@ -63,6 +66,9 @@
                 </li>
                 <li>
                   <a routerLink="/help">{{ 'header.help.manual' | translate }}</a>
+                </li>
+                <li>
+                  <button type="button" name="pia-onboarding" id="pia-onboarding" (click)="restartOnboarding()">{{ 'header.tools.onboarding' | translate }}</button>
                 </li>
                 <li>
                   <a target="_blank" href="https://github.com/LINCnil/pia/blob/master/CONTRIBUTING.md#exprimer-un-besoin-ou-probl%C3%A8me">

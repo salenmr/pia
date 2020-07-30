@@ -35,7 +35,7 @@ export class ApplicationDb {
         evt2.onerror = (event2: any) => {
           console.error(event2);
           reject(Error(event2));
-        }
+        };
       };
       evt.onsuccess = (event: any) => {
         resolve(event.target.result);
@@ -75,6 +75,8 @@ export class ApplicationDb {
               objectStore.createIndex('index1', 'pia_id', { unique: false });
             } else if (this.tableName === 'revision') {
               objectStore.createIndex('index1', 'pia_id', { unique: false });
+            } else if (this.tableName === 'knowledge') {
+              objectStore.createIndex('index1', 'knowledgeBase_id', { unique: false });
             }
           }
           if (event.oldVersion !== this.dbVersion) {
@@ -129,9 +131,7 @@ export class ApplicationDb {
       alert('A new version of this page is ready. Please reload!');
     };
     return new Promise((resolve, reject) => {
-      this.objectStore = db
-        .transaction(this.tableName, 'readwrite')
-        .objectStore(this.tableName);
+      this.objectStore = db.transaction(this.tableName, 'readwrite').objectStore(this.tableName);
       resolve(this.objectStore);
     });
   }
