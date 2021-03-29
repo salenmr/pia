@@ -572,524 +572,524 @@
 				"name": "Nenozīmīga ietekme"
 			},
 			"PIA_EX_NHUM": {
-				"description": "Incident or damage at one of the organisation (power cut, fire, flood, etc.)",
-				"name": "Non-human sources"
+				"description": "Incidents vai kaitējums kādā no organizācijām (strāvas padeves pārtraukums, ugunsgrēks, plūdi u.c.)",
+				"name": "Avoti, kas nav cilvēki"
 			},
 			"PIA_EX_VRAI": {
-				"description": "It seems possible for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in offices that cannot be accessed without first checking in at the reception).",
-				"name": "Significant likelihood"
+				"description": "Šķiet, ka atlasītie riska avoti var realizēt draudus, izmantojot palīglīdzekļu īpašības (piemēram, papīra formāta dokumentu zādzību birojos, kuriem nevar piekļūt bez iepriekšējas reģistrēšanās reģistratūrā).",
+				"name": "Nozīmīga varbūtība"
 			},
 			"PIA_EX_VRAL": {
-				"description": "It seems difficult for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in a room protected by a badge reader).",
-				"name": "Limited likelihood"
+				"description": "Šķiet, ka atlasītajiem riska avotiem ir sarežģīti realizēt draudus, izmantojot palīglīdzekļu īpašības (piemēram, papīra formātu dokumentu zādzību telpā, ko aizsargā žetonu lasītājs).",
+				"name": "Ierobežota varbūtība"
 			},
 			"PIA_EX_VRAM": {
-				"description": "It seems extremely easy for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in the public lobby).",
-				"name": "Maximum likelihood"
+				"description": "Šķiet, ka atlasītajiem riska avotiem ir ļoti viegli realizēt draudus, izmantojot palīglīdzekļu īpašības (piemēram, papīra formāta dokumentu zādzību publiskajā vestibilā).",
+				"name": "Maksimāla varbūtība"
 			},
 			"PIA_EX_VRAN": {
-				"description": "It does not seem possible for the selected risk sources to materialize the threat by exploiting the properties of supporting assets (e.g.: theft of paper documents stored in a room protected by a badge reader and access code).",
-				"name": "Negligible likelihood"
+				"description": "Šķiet, ka atlasītajiem riska avotiem nav iespējams realizēt draudus, izmantojot palīglīdzekļu īpašības (piemēram, papīra formāta dokumentu zādzību telpā, ko aizsargā žetonu lasītājs un piekļuves kods).",
+				"name": "Nenozīmīga varbūtība"
 			},
 			"PIA_LGL_CONS": {
-				"description": "Allow data subjects to make a free, specific and informed choice. Determine whether the processing relies on a legal basis other than consent pursuant to Art. 6 of the <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[GDPR]</a>",
-				"name": "Consent",
+				"description": "Ļaujiet datu subjektiem izdarīt brīvu, konkrētu un apzinātu izvēli. Nosakiet, vai apstrāde notiek uz juridiska pamata, kas nav piekrišana saskaņā ar <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR]</a> 6. pantu",
+				"name": "Piekrišana",
 				"source": "PIA3 p11 - WIKI"
 			},
 			"PIA_LGL_DATA": {
-				"description": "Define and describe the scope in detail:<br>- the personal data concerned, their recipients and storage durations<br>- description of the processes and personal data supporting assets for the entire personal data life cycle (from collection to erasure).",
-				"name": "Data and processes",
+				"description": "Detalizēti definējiet un aprakstiet darbības jomu:<br>- attiecīgie personas dati, to saņēmēji un glabāšanas ilgums;<br>- apraksts par procesiem un personas datiem, kas atbalsta aktīvus visā personas datu dzīves ciklā (no vākšanas līdz dzēšanai).",
+				"name": "Dati un procesi",
 				"source": "PIA1 p6"
 			},
 			"PIA_LGL_DESC": {
-				"description": "Present a brief outline of the processing under consideration, its nature, scope, context, purposes and stakes. Identify the data controller and any processors. List the standard references applicable to the processing, which are necessary or must be complied with , not least the approved codes of conduct (see Art. 40 of the <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[GDPR]</a>) and certifications regarding data protection (see Art. 42 of the <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[GDPR]</a>)",
-				"name": "Processing's description",
+				"description": "Uzrādiet īsu apskatāmās apstrādes veidu, tās raksturu, apjomu, kontekstu, mērķus un likmes. Identificējiet datu pārzini un visus apstrādātājus. Uzskaitiet apstrādei piemērojamās standarta atsauces, kas ir nepieciešamas vai jāievēro, tostarp apstiprinātos rīcības kodeksus (skatiet <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR]</a> 40. pantu) un sertifikātus, kas attiecas uz datu aizsardzību (skatiet <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR]</a> 42. pantu)",
+				"name": "Apstrādes apraksts",
 				"source": "PIA1 p4"
 			},
 			"PIA_LGL_DEST": {
-				"description": "Natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not. However, public authorities which may receive personal data in the framework of a particular inquiry in accordance with Union or Member State law shall not be regarded as recipients; the processing of those data by those public authorities shall be in compliance with the applicable data protection rules according to the purposes of the processing. see Art. 4.9 of the <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[GDPR]</a>",
-				"name": "Recipient",
-				"source": "GDPR art 4.9"
+				"description": "Fiziska vai juridiska persona, publiska iestāde, aģentūra vai cita struktūra, kurai izpauž personas datus – neatkarīgi no tā, vai tā ir trešā persona vai nav. Tomēr publiskas iestādes, kas var saņemt personas datus saistībā ar konkrētu izmeklēšanu saskaņā ar Savienības vai dalībvalsts tiesību aktiem, netiek uzskatītas par saņēmējiem; minēto datu apstrāde, ko veic minētās publiskās iestādes, atbilst piemērojamiem datu aizsardzības noteikumiem saskaņā ar apstrādes nolūkiem. Skatiet <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR]</a> 4.9. pantu",
+				"name": "Saņēmējs",
+				"source": "VDAR 4.9. pants"
 			},
 			"PIA_LGL_DUR": {
-				"description": "A storage duration must be defined for each type of data and justified by the legal requirements and/or processing needs. Thus a distinction is made between common data and archived data, to which access will be limited to only the stakeholders concerned. An erasure mechanism must be implemented to archive common data or purge archived data at the end of their storage duration. Functional traces will also have to be purged, as will technical logs which may not be stored indefinitely",
-				"name": "Storage Durations",
-				"source": "PIAF Connected Objects p12"
+				"description": "Katram datu veidam ir jānosaka glabāšanas ilgums, un tas tiek pamatots ar juridiskām prasībām un/vai apstrādes vajadzībām. Tādējādi tiek nošķirti kopējie dati un arhivētie dati, kuru piekļuve būs atļauta tikai attiecīgajām ieinteresētajām personām. Jāievieš dzēšanas mehānisms, lai arhivētu vispārējos datus vai iztīrītu arhivētos datus to glabāšanas perioda beigās. Būs jāiztīra arī funkcionālās pēdas, kā arī tehniskie žurnāli, kurus nedrīkst glabāt bezgalīgi",
+				"name": "Glabāšanas ilgumi",
+				"source": "PIAF savienotie objekti 12. lpp."
 			},
 			"PIA_LGL_FIN": {
-				"description": "Personal data shall be collected for specified, explicit and legitimate purposes and <strong>not further processed in a manner that is incompatible with those purposes.</strong> <br>See <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">Art. 5.1 b) of [GDPR]</a>",
-				"name": "Principles relating to processing of personal data",
-				"source": "GDPR art 5.1 b)"
+				"description": "Personas dati tiek vākti konkrētos, skaidros un leģitīmos nolūkos, un to turpmāku <strong> apstrādi neveic ar minētajiem nolūkiem nesavietojamā.</strong> <br>Skatiet<a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR[ 5. panta 1. punkta b) apakšpunktu</a>",
+				"name": "Principi, kas attiecas uz personas datu apstrādi",
+				"source": "VDAR 5. panta 1. punkta b) apakšpunkts"
 			},
 			"PIA_LGL_FOND": {
-				"description": "- The data subject has given consent  to the processing of his or her personal data for one or more specific purposes <br>- Processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract <br>-Processing is necessary for compliance with a legal obligation to which the controller is subject <br>- Processing is necessary in order to protect the vital interests of the data subject or of another natural person <br>- Processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller <br>- Processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child<br> See <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">art. 6 of [GDPR]</a> ",
-				"name": "Justification of lawfulness",
+				"description": "- Datu subjekts ir sniedzis piekrišanu savu personas datu apstrādei vienam vai vairākiem konkrētiem nolūkiem <br>- Apstrāde ir vajadzīga līguma, kura līgumslēdzēja puse ir datu subjekts, izpildei vai pasākumu veikšanai pēc datu subjekta pieprasījuma pirms līguma noslēgšanas <br>- Apstrāde ir vajadzīga, lai izpildītu uz pārzini attiecināmu juridisku pienākumu <br>- Apstrāde ir vajadzīga, lai aizsargātu datu subjekta vai citas fiziskas personas vitālas intereses <br>- Apstrāde ir vajadzīga, lai izpildītu uzdevumu, ko veic sabiedrības interesēs vai īstenojot pārzinim likumīgi piešķirtās oficiālās pilnvaras <br>- Apstrāde ir vajadzīga pārziņa vai trešās personas leģitīmo interešu ievērošanai, izņemot, ja datu subjekta intereses vai pamattiesības un pamatbrīvības, kurām nepieciešama personas datu aizsardzība, ir svarīgākas par šādām interesēm, jo īpaši, ja datu subjekts ir bērns<br> Skatiet <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\"> [VDAR] 6. pantu</a> ",
+				"name": "Likumības pamatojums",
 				"source": "PIA2 p4"
 			},
 			"PIA_LGL_INFO": {
-				"description": "Ensure that the subjects are informed. Confirm that the processing is not covered by an exception and is not subject to specific conditions.",
-				"name": "Informing data subjects",
+				"description": "Pārliecinieties, vai subjekti ir informēti. Apstipriniet, ka uz apstrādi neattiecas izņēmums un īpaši nosacījumi.",
+				"name": "Datu subjektu informēšana",
 				"source": "PIA3 p8 - WIKI"
 			},
 			"PIA_LGL_MINI": {
-				"description": "It is important to reduce the severity of the risks by minimising the number of personal data that will be processed, by limiting such data to what is strictly necessary for the purposes for which they are processed (otherwise they should not be collected). Then, it also becomes possible to minimise the data themselves, via controls aimed at reducing their sensitivity.",
-				"name": "Data minimisation",
-				"source": "PIAF Connected Objects p10 - WIKI"
+				"description": "Ir svarīgi samazināt risku nopietnību, samazinot apstrādājamo personas datu skaitu, ierobežojot šādus datus līdz apjomam, kas ir absolūti nepieciešams nolūkiem, kuriem tie tiek apstrādāti (citādi tos nevajadzētu vākt). Tad arī ir iespējams samazināt pašus datus, izmantojot kontroles, kuru mērķis ir samazināt to sensitivitāti.",
+				"name": "Datu minimizācija",
+				"source": "PIAF savienotie objekti 10. lpp. — WIKI"
 			},
 			"PIA_LGL_ST": {
-				"description": "A processing contract must be signed with each processor, setting out all of the aspects stipulated in Art. 28 of the [GDPR]: duration, scope, purpose, documented processing instructions, prior authorisation where a processor is engaged, provision of any documentation providing evidence of compliance with the [GDPR], prompt notification of any data breach, etc.",
-				"name": "Subcontracting",
+				"description": "Apstrādes līgums ir jāparaksta ar katru apstrādātāju, norādot visus [VDAR] 28. pantā atrunātos aspektus: ilgumu, darbības jomu, mērķi, dokumentētas apstrādes instrukcijas, iepriekšēju atļauju, ja ir iesaistīts apstrādātājs, jebkuras tādas dokumentācijas nodrošināšanu, kas apliecina atbilstību [VDAR], tūlītēju ziņošanu par visiem datu pārkāpumiem utt.",
+				"name": "Apakšlīgumi",
 				"source": "PIA2 p10"
 			},
 			"PIA_LGL_SUPT": {
-				"description": "Asset on which personal data rely. Note: this may be hardware, software, networks, people, paper or paper transmission channels.",
-				"name": "Supporting asset",
+				"description": "Aktīvs, uz kuru balstās personas dati. Piezīme: tā var būt aparatūra, programmatūra, tīkli, cilvēki, papīrs vai papīra pārsūtīšanas kanāli.",
+				"name": "Atbalsta līdzekļi",
 				"source": "PIA1 p10"
 			},
 			"PIA_LGL_TRAN": {
-				"description": "Depending on the country in question, you will have to justify the choice of remote hosting and indicate the legal supervision arrangements implemented in order to ensure adequate protection of the data subject to a cross-border transfer. That is :<br>- European Union<br>- Country recognised as providing adequate protection by the EU<br>- Transfer to the United States to a company which has joined the Privacy Shield<br>- Other country <br>See <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">art. 44 to 49 of [GDPR]</a>",
-				"name": "Transfers",
-				"source": "PIAF Connected Objects p18"
+				"description": "Atkarībā no konkrētās valsts jums būs jāpamato attālinātās izvietošanas izvēle un jānorāda īstenotās tiesiskās uzraudzības kārtība, lai nodrošinātu datu subjekta pietiekamu aizsardzību saistībā ar pārrobežu sūtīšanu. Proti:<br>- Eiropas Savienība<br>- Valsts, kuru ES atzīst par adekvātas aizsardzības nodrošinātāju <br>- Nosūtīšana uz Amerikas Savienotajām Valstīm uzņēmumam, kas ir pievienojies privātuma vairogam<br>- Cita valsts <br>Skatiet <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR] 44.–49. pantu</a>",
+				"name": "Nosūtīšana",
+				"source": "PIAF savienotie objekti 18. lpp."
 			},
 			"PIA_METHOD_MES": {
-				"description": "Planned controls are those originally put in place, before any analysis by the assessor. Corrective measures advised by the assessor will be stated in the action plan and will enable a second assessment of the severity and likelihood of the risk.",
-				"name": "Planned and corrective controls",
+				"description": "Plānotās kontroles ir tās, kas sākotnēji tika ieviestas pirms jebkādas vērtētāja veiktās analīzes. Vērtētāja ieteiktie korekcijas pasākumi tiks norādīti rīcības plānā un ļaus vēlreiz novērtēt riska smagumu un varbūtību.",
+				"name": "Plānotās un koriģējošās kontroles",
 				"source": ""
 			},
 			"PIA_ORG_AUD": {
-				"description": "Existence of a policy and processes to obtain an organisation able to manage and control the protection of personal data held within it.",
-				"name": "Supervision",
-				"placeholder": "Indicate here whether the effectiveness and adequacy of privacy controls are monitored.",
+				"description": "Politikas un procesu eksistence, lai iegūtu organizāciju, kas spēj pārvaldīt un kontrolēt tajā glabāto personas datu aizsardzību.",
+				"name": "Uzraudzība",
+				"placeholder": "Šeit norādiet, vai tiek uzraudzīta privātuma kontroles efektivitāte un adekvātums.",
 				"source": "PIA3 p76 - WIKI"
 			},
 			"PIA_ORG_EXT": {
-				"description": "Existence of a policy and processes reducing the risk that legitimate access to personal data by third parties may pose to the data subjects' civil liberties and privacy.",
-				"name": "Relations with third parties",
-				"placeholder": "Indicate here, for processors requiring access to data, the security controls and arrangements carried out as regards such access.",
+				"description": "Tādas politikas un procesu esamība, kas samazina risku, ka trešo personu likumīga piekļuve personas datiem var izraisīt apdraudējumu datu subjektu pilsoniskajām brīvībām un privātumam.",
+				"name": "Attiecības ar trešajām personām",
+				"placeholder": "Apstrādātājiem, kuriem ir nepieciešama piekļuve datiem, šeit norādiet drošības kontroles un pasākumus, kas veikti attiecībā uz šādu piekļuvi.",
 				"source": "PIA3 p48 - WIKI"
 			},
 			"PIA_ORG_ORG": {
-				"description": "Specify whether a person is responsible for the enforcement of privacy laws and regulations. Specify whether there is a monitoring committee (or equivalent) responsible for the guidance and follow-up of actions concerning the protection of privacy.",
-				"name": "Organisation",
-				"placeholder": "Indicate if the roles and responsibilities for data protection are defined.",
-				"source": "PIAF Connected Objects p24 - WIKI"
+				"description": "Norādiet, vai persona ir atbildīga par privātuma likumu un noteikumu izpildi. Norādiet, vai pastāv uzraudzības komiteja (vai līdzvērtīga organizācija), kas ir atbildīga par darbību vadību un turpmāko rīcību saistībā ar privātuma aizsardzību.",
+				"name": "Organizācija",
+				"placeholder": "Norādiet, vai ir definētas datu aizsardzības lomas un pienākumi.",
+				"source": "PIAF savienotie objekti 24. lpp. — WIKI"
 			},
 			"PIA_ORG_PBD": {
-				"description": "Existence of a policy designed integrate the protection of personal data in all new processing operations.",
-				"name": "Integrating privacy protection in projects",
-				"placeholder": "Describe here how privacy protection is integrated in projects",
+				"description": "Izstrādātas politikas esamība integrē personas datu aizsardzību visās jaunajās apstrādes darbībās.",
+				"name": "Privātuma aizsardzības integrēšana projektos",
+				"placeholder": "Aprakstiet šeit, kā privātuma aizsardzība tiek integrēta projektos",
 				"source": "PIA3 p79 - WIKI"
 			},
 			"PIA_ORG_PERS": {
-				"description": "Existence of a policy describing awareness-raising controls are carried out with regard to a new recruit and what controls are carried out when persons who have been accessing data leave their job.",
-				"name": "Personnel management",
-				"placeholder": "Indicate here what awareness-raising controls are carried out with regard to employees.",
-				"source": "PIAF Connected Objects p24"
+				"description": "Tādas politikas pieejamība, kurā ir aprakstītas izpratnes veicināšanas kontroles attiecībā uz jaunu darbinieku un to, kādas kontroles tiek veiktas, kad personas, kurām ir piekļuve datiem, aiziet no darba.",
+				"name": "Personāla vadība",
+				"placeholder": "Šeit norādiet, kādas izpratnes veicināšanas kontroles tiek veiktas attiecībā uz darbiniekiem.",
+				"source": "PIAF savienotie objekti 24. lpp."
 			},
 			"PIA_ORG_POL": {
-				"description": "Set out important aspects relating to data protection within a documentary base making up the data protection policy and in a form suited to each type of content (risks, key principles to be followed, target objectives, rules to be applied, etc.) and each communication target (users, IT department, policymakers, etc.).",
-				"name": "Policy",
-				"placeholder": "Describe here the documentary base setting out data protection objectives and rules.",
+				"description": "Norādiet svarīgus ar datu aizsardzību saistītus aspektus dokumentācijas bāzē, kas veido datu aizsardzības politiku, un katram satura veidam piemērotā formā (riski, galvenie principi, kas jāievēro, plānotie mērķi, piemērojamie noteikumi utt.), kā arī katram komunikācijas mērķim (lietotāji, IT nodaļa, politikas veidotāji utt.).",
+				"name": "Politika",
+				"placeholder": "Šeit aprakstiet dokumentācijas bāzi, kurā ir noteikti datu aizsardzības mērķi un noteikumi.",
 				"source": "PIA3 p78 - WIKI"
 			},
 			"PIA_ORG_RMGT": {
-				"description": "Policy describing processes to control the risks that processing operations performed by the organisation pose on data protection and the privacy of data subjects (building a map of the risks, etc.).",
-				"name": "Managing privacy risks",
-				"placeholder": "Describe here processes to control the risks that processing operations performed by the organisation pose on data protection and the privacy of data subjects.",
+				"description": "Politika, kurā ir aprakstīti procesi, lai kontrolētu riskus, ko organizācijas veiktās apstrādes darbības rada datu aizsardzībai un datu subjektu privātumam (izveidojot risku karti utt.).",
+				"name": "Privātuma risku pārvaldība",
+				"placeholder": "Šeit aprakstiet procesus, lai kontrolētu riskus, ko organizācijas veiktās apstrādes darbības rada datu aizsardzībai un datu subjektu privātumam.",
 				"source": "PIA3 p77 - WIKI"
 			},
 			"PIA_ORG_VIOL": {
-				"description": "Existence of an operational organisation that can detect and treat incidents that may affect the data subjects' civil liberties and privacy.",
-				"name": " Managing personal data violations",
-				"placeholder": "Indicate here whether IT incidents are subject to a documented and tested management procedure.",
-				"source": "PIAF Connected Objects p24 and PIA3 p36 - WIKI"
+				"description": "Tādas darbības organizācijas esamība, kas var atklāt un risināt incidentus, kuri var ietekmēt datu subjektu pilsoniskās brīvības un privātumu.",
+				"name": " Personas datu pārkāpumu pārvaldība",
+				"placeholder": "Šeit norādiet, vai uz IT incidentiem attiecas dokumentēta un pārbaudīta pārvaldības procedūra.",
+				"source": "PIAF savienotie objekti 24. lpp. un PIA3 36. lpp. - WIKI"
 			},
 			"PIA_SEC_BKP": {
-				"description": "Policies and means implemented to ensure the availability and/or integrity of the personal data, while maintaining their confidentiality.",
-				"name": "Backups",
-				"placeholder": "Indicate here how backups are managed. Clarify whether they are stored in a safe place.",
-				"source": "PIAF Connected Objects p23 & PIA3 p27  - WIKI"
+				"description": "Politika un līdzekļi, kas ieviesti, lai nodrošinātu personas datu pieejamību un/vai integritāti, vienlaikus saglabājot to konfidencialitāti.",
+				"name": "Dublējumi",
+				"placeholder": "Šeit norādiet, kā tiek pārvaldīti dublējumi. Paskaidrojiet, vai tie tiek glabāti drošā vietā.",
+				"source": "PIAF savienotie objekti 23. lpp. un PIA3 27. lpp. — WIKI"
 			},
 			"PIA_SEC_COMP": {
-				"description": "Controls implemented on workstations (automatic locking, regular updates, configuration, physical security, etc.) to reduce the possibility to exploit software properties (operating systems, business applications etc.) to adversely affect personal data.",
-				"name": "Managing workstations",
-				"placeholder": "Describe here the controls implemented on workstations",
-				"source": "PIAF Connected Objects p22 - WIKI"
+				"description": "Darbstacijās ieviestās vadības ierīces (automātiska bloķēšana, regulāri atjauninājumi, konfigurācija, fiziska drošība utt.), lai samazinātu iespēju izmantot programmatūras īpašības (operētājsistēmas, uzņēmuma lietotnes utt.), negatīvi ietekmējot personas datus.",
+				"name": "Darbstaciju pārvaldība",
+				"placeholder": "Šeit aprakstiet darbstacijās ieviestās vadības ierīces",
+				"source": "PIAF savienotie objekti 22. lpp. — WIKI"
 			},
 			"PIA_SEC_CTR": {
-				"description": "<strong>Only use subcontractors which are able to provide sufficient guarantees</strong> (in particular in terms of specialised knowledge, reliability and resources). Require service providers to communicate their information system security policy before signing a contract with them. <br>Take and document the means (security audits, installation visits, etc.) used to <strong>ensure the effectiveness of the guarantees offered by the subcontractor</strong> in terms of data protection. These guarantees include: <br>- encryption of data according to its sensitivity or, at least, the existence of procedures guaranteeing that the service company does not have access to the data; <br>- encryption of data transmissions (e.g.: HTTPS type connection, VPN, etc.); <br>- guarantees in terms of network protection, traceability (logs, audits), access rights management, authentication, etc. <br><strong>Sign a contract with the subcontractors</strong>, which defines the subject, the length and the purpose of the processing, as well as obligations of each party. Ensure that it contains, in particular, provisions targeting: <br>- their obligation in terms of <strong>confidentiality of the entrusted personal data</strong>;<br>- <strong>minimal standards in terms of user authentication</strong>;<br>- <strong>conditions of restitution of data and/or its destruction at end of the contract</strong>;<br>- <strong>incident management and notification rules. </strong> They should include notification of the data controller whenever a security breach or a security incident is discovered, which should happen as soon as possible when it concerns personal data.",
-				"name": "Processing contracts",
-				"placeholder": "Describe here specific measures for processors (host, maintenance company, administrator, specialist service providers, etc.)",
-				"source": "Mesures_US Procurement: identified and governed by a contract"
+				"description": "<strong>Izmantojiet tikai apakšuzņēmējus, kuri spēj sniegt pietiekamas garantijas</strong> (it īpaši attiecībā uz specializētām zināšanām, uzticamību un resursiem). Pirms parakstāt līgumu ar pakalpojumu sniedzējiem, pieprasiet, lai viņi paziņo par savu informācijas sistēmas drošības politiku. <br>Izmantojiet un dokumentējiet līdzekļus (drošības revīzijas, uzstādījumu apmeklējumus utt.), kas tiek izmantoti, lai <strong>nodrošinātu apakšuzņēmēja piedāvāto garantiju efektivitāti</strong> datu aizsardzības jomā. Šīs garantijas iekļauj: <br>- datu šifrēšanu atbilstoši to jutīgumam vai vismaz tādu procedūru esamību, kuras garantē, ka pakalpojumu uzņēmumam nav piekļuves datiem; <br> - datu pārraides šifrēšanu (piemēram, HTTPS tipa savienojumu, VPN); <br>- garantijas attiecībā uz tīkla aizsardzību, izsekojamību (žurnāli, revīzijas), piekļuves tiesību pārvaldību, autentifikāciju utt. <br> <strong> Parakstiet līgumu ar apakšuzņēmējiem</strong>, kurā ir noteikts temats, ilgums un apstrādes mērķi, kā arī katras puses saistības. It īpaši pārliecinieties, vai tā satur nosacījumus, kuru mērķis ir: <br>- viņu pienākums ievērot <strong>uzticēto personas datu konfidencialitāti</strong>;<br>- <strong> minimālie standarti lietotāja autentifikācijas jomā</strong>; <br>- <strong>nosacījumi par datu atjaunošanu un/vai to iznīcināšanu līguma beigās</strong>;<br>- <strong>incidentu pārvaldības un ziņošanas noteikumi. </strong> Tajos ir jāiekļauj datu pārziņa ziņojums ikreiz, kad tiek atklāts drošības pārkāpums vai drošības incidents, un tam ir jānotiek pēc iespējas drīzāk, ja tas attiecas uz personas datiem.",
+				"name": "Apstrādes līgumi",
+				"placeholder": "Šeit aprakstiet īpašos pasākumus, kas attiecas uz pārstrādātājiem (resursdators, tehniskās apkopes uzņēmums, administrators, specializēto pakalpojumu sniedzēji utt.)",
+				"source": "Mesures_US iepirkums: identificēts un regulēts ar līgumu"
 			},
 			"PIA_SEC_EXP": {
-				"description": "Policies implemented to reduce the possibility and the impact of risks on assets supporting personal data.",
-				"name": "Operating security",
-				"placeholder": "Describe here how the software updates (operating systems, applications, etc.) and application of security corrective controls patches are carried out.",
-				"source": "PIAF Connected Objects p22 - WIKI"
+				"description": "Politikas, kas ieviestas, lai samazinātu risku iespējamību un ietekmi uz līdzekļiem, kas atbalsta personas datus.",
+				"name": "Darbības drošība",
+				"placeholder": "Šeit aprakstiet, kā tiek veikti programmatūras atjauninājumi (operētājsistēmas, lietotnes utt.) un drošības koriģējošo kontroles ielāpu lietošana.",
+				"source": "PIAF savienotie objekti 22. lpp. — WIKI"
 			},
 			"PIA_SEC_LOG": {
-				"description": "Monitor intrusion detection systems and intrusion prevention systems in order to analyze network (wired networks, Wi-Fi, radio waves, fiber optics, etc.) traffic in real time and detect any suspicious activity suggestive of a cyber attack scenario.",
-				"name": "Monitoring network activity",
-				"placeholder": "Indicate here means and controls implemented to detect incidents involving personal data",
+				"description": "Uzraugiet ielaušanās atklāšanas sistēmas un ielaušanās novēršanas sistēmas, lai reāllaikā analizētu tīkla (vadu tīklu, Wi-Fi, radioviļņu, optiskās šķiedras utt.) datplūsmu un atklātu jebkādas aizdomīgas darbības, kas vedina domāt par kiberuzbrukuma scenāriju.",
+				"name": "Tīkla aktivitātes uzraudzība",
+				"placeholder": "Norādiet šeit līdzekļus un kontroles, kas ir ieviestas, lai atklātu ar personas datiem saistītos incidentus",
 				"source": "PIA3 p67 - WIKI"
 			},
 			"PIA_SEC_MAIN": {
-				"description": "Policies describing how physical maintenance of hardware is managed, stating whether this is contracted out.<br> Indicate whether the remote maintenance of apps is authorized, and according to what arrangements. Specify whether defective equipment is managed in a specific manner.",
-				"name": "Maintenance",
-				"placeholder": "Describe here how physical maintenance of hardware is managed",
-				"source": "PIAF Connected Objects p23"
+				"description": "Politikas, kurās aprakstīta aparatūras fiziskās uzturēšanas pārvaldība, norādot, vai par to ir noslēgts ārpakalpojumu līgums.<br> Norādiet, vai lietotņu attālinātā uzturēšana ir atļauta un uz kādu vienošanos pamata. Norādiet, vai bojāts aprīkojums tiek pārvaldīts kādā īpašā veidā.",
+				"name": "Apkope",
+				"placeholder": "Šeit aprakstiet, kā notiek aparatūras fiziskā uzturēšana",
+				"source": "PIAF savienotie objekti 23. lpp."
 			},
 			"PIA_SEC_MAL": {
-				"description": "Controls implemented on workstations and servers to protect them from malicious software while accessing less secure networks.",
-				"name": "Clamping down on malicious software",
-				"placeholder": "Describe here the controls implemented to reduce risks while accessing less secure networks.",
-				"source": "PIAF Connected Objects p22 - WIKI"
+				"description": "Darbstacijās un serveros ieviestās vadības ierīces to aizsardzībai pret ļaunprātīgu programmatūru, piekļūstot mazāk drošiem tīkliem.",
+				"name": "Ļaunprātīgas programmatūras ierobežošana",
+				"placeholder": "Šeit aprakstiet kontroles, kas ir ieviestas, lai samazinātu riskus, piekļūstot mazāk drošiem tīkliem.",
+				"source": "PIAF savienotie objekti 22. lpp. — WIKI"
 			},
 			"PIA_SEC_MAT": {
-				"description": "Indicate here the controls bearing on the physical security of servers and workstations (secure storage, security cables, confidentiality filters, secure erasure prior to scrapping, etc.).",
-				"name": "Hardware security",
-				"placeholder": "Indicate here the controls bearing on the physical security of servers and workstations",
-				"source": "PIAF Connected Objects p23 - WIKI"
+				"description": "Šeit norādiet kontroles, kas attiecas uz serveru un darbstaciju fizisko drošību (droša glabāšana, drošības kabeļi, konfidencialitātes filtri, droša dzēšana pirms likvidēšanas utt.).",
+				"name": "Aparatūras drošība"
+				"placeholder": "Šeit norādiet kontroles, kas attiecas uz serveru un darbstaciju fizisko drošību",
+				"source": "PIAF savienotie objekti 23. lpp. — WIKI"
 			},
 			"PIA_SEC_NET": {
-				"description": "Depending on the type of network on which the processing is carried out (isolated, private or Internet). Specify which firewall system, intrusion detection systems or other active or passive devices are in charge of ensuring network security.",
-				"name": "Network security",
-				"placeholder": "Indicate here the security controls of network on which the processing is carried out",
-				"source": "PIAF Connected Objects p23"
+				"description": "Atkarībā no tā tīkla veida, kurā tiek veikta apstrāde (izolēts, privāts vai internets). Norādiet, kura ugunsmūra sistēma, ielaušanās noteikšanas sistēmas vai citas aktīvās vai pasīvās ierīces ir atbildīgas par tīkla drošības nodrošināšanu.",
+				"name": "Tīkla drošība",
+				"placeholder": "Šeit norādiet tā tīkla drošības kontroles, kurā tiek veikta apstrāde",
+				"source": "PIAF savienotie objekti 23. lpp."
 			},
 			"PIA_SEC_PHY": {
-				"description": "Policies to ensure physical security (zoning, escorting of visitors, wearing of passes, locked doors and so on).Indicate whether there are warning procedures in place in the event of a break-in.",
-				"name": "Physical access control",
-				"placeholder": "Indicate here how physical access control is carried out regarding the premises accommodating the processing.",
-				"source": "PIAF Connected Objects p23"
+				"description": "Fiziskās drošības nodrošināšanas politika (piemēram, zonēšana, apmeklētāju pavadīšana, caurlaižu nēsāšana, aizslēgtas durvis). Norādiet, vai ir ieviestas brīdinājumu procedūras ielaušanās gadījumā.",
+				"name": "Fiziska piekļuves kontrole",
+				"placeholder": "Šeit norādiet, kā tiek veikta fiziska piekļuves kontrole telpām, kurās notiek apstrāde.",
+				"source": "PIAF savienotie objekti 23. lpp."
 			},
 			"PIA_SEC_PROT": {
-				"description": "Policies describing the means of fire prevention, detection and fighting. Where applicable, indicate the means of preventing water damage. Also specify the means of power supply monitoring and relief.",
-				"name": "Protecting against non-human sources of risks",
-				"placeholder": "Indicate here means to avoid to limit non-human sources of risks.",
-				"source": "PIAF Connected Objects p23 - WIKI"
+				"description": "Politikas, kurā ir aprakstīti ugunsgrēka novēršanas, atklāšanas un apkarošanas līdzekļi. Ja nepieciešams, norādiet līdzekļus ūdens izraisītu bojājumu novēršanai. Norādiet arī elektropadeves uzraudzības un atbalsta līdzekļus.",
+				"name": "Aizsardzība pret risku avotiem, kas nav cilvēki",
+				"placeholder": "Šeit norādiet līdzekļus, kā izvairīties no riska avotiem, kas nav cilvēki.",
+				"source": "PIAF savienotie objekti 23. lpp. — WIKI"
 			},
 			"PIA_SEC_SRC": {
-				"description": "Documentation on implantation area, which should not be subject to environmental disasters (flood zone, proximity to chemical industries, earthquake or volcanic zone, etc.).Specify if dangerous products are stored in the same area.",
-				"name": "Avoiding sources of risk",
-				"placeholder": "Indicate here whether the implantation area is subject to environmental disasters",
-				"source": "PIAF Connected Objects p23 - WIKI"
+				"description": "Dokumentācija par implantācijas zonu, kas nedrīkst būt pakļauta vides katastrofām (plūdu zona, tuvums ķīmiskajai rūpniecībai, zemestrīce vai vulkāna zona utt.). Norādiet, vai bīstami produkti tiek uzglabāti tajā pašā zonā.",
+				"name": "Izvairīšanās no risku avotiem",
+				"placeholder": Šeit norādiet, vai ieviešanas zona ir pakļauta vides katastrofām",
+				"source": "PIAF savienotie objekti 23. lpp. — WIKI"
 			},
 			"PIA_SEC_WEB": {
-				"description": "Implementation of ANSSI's Recommendations for securing websites.",
-				"name": "Website security",
-				"placeholder": "Indicate here controls implemented to protect websites.",
-				"source": "PIAF Connected Objects p22 - WIKI"
+				"description": "ANSSI ieteikumu ieviešana tīmekļa vietņu drošībai.",
+				"name": "Tīmekļa vietnes drošība",
+				"placeholder": "Šeit norādiet tīmekļa vietņu aizsardzībai ieviestās kontroles.",
+				"source": "PIAF savienotie objekti 22. lpp. — WIKI"
 			},
 			"PIA_TEC_ANO": {
-				"description": "Indicate here whether anonymisation mechanisms are implemented, which ones and for what purpose. <br>Remember to clearly distinguish between anonymous and pseudonymous data.",
-				"name": "Anonymisation",
-				"placeholder": "Indicate here implemented anonymisation mechanisms",
-				"source": "PIAF Connected Objects p21"
+				"description": "Šeit norādiet, vai ir ieviesti anonimizācijas mehānismi, kādi un kādam nolūkam. <br>Atcerieties skaidri nošķirt anonīmus un pseidonīmus datus.",
+				"name": "Anonimizācija",
+				"placeholder": "Šeit norādiet ieviestos anonimizācijas mehānismus",
+				"source": "PIAF savienotie objekti 21. lpp."
 			},
 			"PIA_TEC_ARCH": {
-				"description": "Where applicable, describe here the processes of archive management (delivery, storage, consultation, etc.) under your responsibility. Specify the archiving roles (offices of origin, transferring agencies, etc.) and the archiving policy. State if data may fall within the scope of public archives.",
-				"name": "Archiving",
-				"placeholder": "Indicate here whether mechanisms are implemented for integrity monitoring of stored data, which ones and for what purpose.",
-				"source": "PIAF Connected Objects p22 - WIKI"
+				"description": "Šeit, ja piemērojams, aprakstiet arhīva pārvaldības procesus (piegāde, glabāšana, konsultācijas utt.), kas ir jūsu atbildībā. Norādiet arhivēšanas lomas (izcelsmes biroji, pārsūtīšanas aģentūras utt.) un arhivēšanas politiku. Norādiet, vai dati var nonākt publisko arhīvu darbības jomā.",
+				"name": "Arhivēšana",
+				"placeholder": "Šeit norādiet, vai ir ieviesti mehānismi glabāto datu integritātes uzraudzībai, kādi un kādam nolūkam.",
+				"source": "PIAF savienotie objekti 22. lpp. — WIKI"
 			},
 			"PIA_TEC_CHIF": {
-				"description": "Means implemented for <strong>ensuring the confidentiality</strong> of data stored (in the database, in flat files, backups, etc.), as well as the procedure for managing encryption keys (creation, storage, change in the event of suspected cases of data compromise, etc.).<br> Describe the encryption means employed for data flows (VPN, TLS, etc.) implemented in the processing.",
-				"name": "Encryption",
-				"placeholder": "Describe here the means implemented for ensuring the confidentiality of data",
-				"source": "PIAF Connected Objects p21"
+				"description": "Līdzekļi, kas ieviesti, lai <strong>nodrošinātu datu konfidencialitāti</strong> (datu bāzē, atsevišļos failos, dublējumos utt.), kā arī šifrēšanas atslēgu pārvaldības procedūra (izveide, glabāšana, nomaiņa, ja ir aizdomas par datu kompromitēšanas gadījumiem utt.).<br> Aprakstiet šifrēšanas līdzekļus, kas tiek izmantoti datu plūsmām (VPN, TLS utt.) un ir ieviesti apstrādē.",
+				"name": "Šifrēšana",
+				"placeholder": "Šeit aprakstiet līdzekļus, kas ir ieviesti, lai nodrošinātu datu konfidencialitāti",
+				"source": "PIAF savienotie objekti 21. lpp."
 			},
 			"PIA_TEC_CLO": {
-				"description": "Implementation of data partitioning helps to reduce the possibility that personal data can be correlated and that a breach of all personal data may occur.",
-				"name": "Partitioning data",
-				"placeholder": "Indicate here if processing partitioning is planned, and how this is carried out.",
-				"source": "PIAF Connected Objects p21"
+				"description": "Datu sadalīšanas ieviešana palīdz mazināt iespēju, ka personas dati var tikt korelēti un var notikt visu personas datu pārkāpums.",
+				"name": "Datu sadalīšana",
+				"placeholder": "Šeit norādiet šeit, vai ir plānota apstrādes sadalīšana un kā tas notiek."
+				"source": "PIAF savienotie objekti 21. lpp."
 			},
 			"PIA_TEC_CTLA": {
-				"description": "Methods to define and attribute users profiles. Specify the <strong>authentication</strong> means implemented . Where applicable, specify the rules applicable to passwords (minimum length, required characters, validity duration, number of failed attempts before access to account is locked, etc.).",
-				"name": "Logical access control",
-				"placeholder": "Indicate here how users profiles are defined and attributed.",
-				"source": "PIAF Connected Objects p21"
+				"description": "Metodes lietotāju profilu definēšanai un attiecināšanai. Norādiet ieviestos <strong>autentifikācijas</strong> līdzekļus. Ja piemērojams, norādiet uz parolēm attiecināmos noteikumus (minimālais garums, nepieciešamās rakstzīmes, derīguma ilgums, neveiksmīgo mēģinājumu skaits, pirms konta piekļuves bloķēšanas utt.).",
+				"name": "Loģiskā piekļuves kontrole",
+				"placeholder": "Šeit norādiet, kā tiek definēti un attiecināti lietotāju profili.",
+				"source": "PIAF savienotie objekti 21. lpp."
 			},
 			"PIA_TEC_LOG": {
-				"description": "Policies that define traceability and log management.",
-				"name": "Traceability (logging)",
-				"placeholder": "Indicate here whether events are logged and how long these traces are stored for.",
-				"source": "PIAF Connected Objects p22"
+				"description": "Politika, kas definē izsekojamību un žurnāla pārvaldību.",
+				"name": "Izsekojamība (reģistrēšana)",
+				"placeholder": "Šeit norādiet, vai notikumi tiek reģistrēti un cik ilgi šīs pēdas tiek glabātas.",
+				"source": "PIAF savienotie objekti 22. lpp."
 			},
 			"PIA_TEC_MINI": {
-				"description": "The following methods could be used : Filtering and removal, Reducing sensitivity via conversion, Reducing the identifying nature of data, Reducing data accumulation, Restricting data access",
-				"name": "Minimising the amount of personal data",
-				"placeholder": "Indicate here means implemented to reduce the severity of risks by limiting the amount of personal data",
-				"source": "PIAF Connected Objects p40"
+				"description": "Var izmantot šādas metodes: filtrēšana un noņemšana, jutīguma samazināšana, veicot pārveidošanu, datu identificēšanas rakstura samazināšana, datu uzkrāšanas samazināšana, datu piekļuves ierobežošana",
+				"name": "Personas datu apjoma samazināšana līdz minimumam",
+				"placeholder": "Šeit norādiet līdzekļus, kas ieviesti, lai samazinātu risku smagumu, ierobežojot personas datu apjomu",
+				"source": "PIAF savienotie objekti 40. lpp."
 			},
 			"PIA_TEC_PAP": {
-				"description": "Where paper documents containing data are used during the processing, indicate here how they are printed, stored, destroyed and exchanged.",
-				"name": "Paper document security",
-				"placeholder": "Indicate here whether mechanisms are implemented for integrity monitoring of paper documents, which ones and for what purpose.",
-				"source": "PIAF Connected Objects p22"
+				"description": "Ja apstrādes laikā tiek izmantoti papīra dokumenti, kas satur datus, šeit norādiet, kā tie tiek drukāti, glabāti, iznīcināti un apmainīti.",
+				"name": "Papīra dokumentu drošība",
+				"placeholder": "Šeit norādiet, vai ir ieviesti mehānismi papīra dokumentu integritātes uzraudzībai, kādi un kādam nolūkam.",
+				"source": "PIAF savienotie objekti 22. lpp."
 			},
 			"PIA_VAL_ACT": {
-				"description": "corrective controls suggested by the assessor in previous steps, drawing up an action plan setting out, for each action, its manager, frequency, difficulty, cost and progress.",
-				"name": "Action plan",
-				"source": "None"
+				"description": "koriģējošās kontroles, kuras vērtētājs ir ieteicis iepriekšējās darbībās, izstrādājot rīcības plānu, kur katrai darbībai ir noteikts pārvaldnieks, biežums, grūtības, izmaksas un progress.",
+				"name": "Rīcības plāns",
+				"source": "Neviens"
 			},
 			"PIA_VAL_CART": {
-				"description": "Graph illustrating the good security practices, with a conformity value attributed to each on the basis of its assessment in previous steps.",
-				"name": "Mapping of risks",
-				"source": "PIAF Connected Objects p34"
+				"description": "Diagramma, kas ilustrē labas drošības prakses, katrai no tām piešķirot atbilstības vērtību pēc tās novērtējuma iepriekšējās darbībās.",
+				"name": "Risku kartēšana",
+				"source": "PIAF savienotie objekti 34. lpp."
 			},
 			"PIA_VAL_CONC": {
-				"description": "Where appropriate, the controller shall seek the views of data subjects or their representatives on the intended processing, without prejudice to the protection of commercial or public interests or the security of processing operations. See Art. 35.9 of the <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[GDPR]</a><br>These views may be gathered by diverse means, depending on the context (internal or external study on the processing methods and purpose, question for the attention of staff representatives or trade unions, survey among future customers of the data processor). <strong>Where the data controller decides to go against the views of the data subjects</strong>, he must note down <strong>the justification for this decision</strong>. Where the data controller considers that <strong>gathering the views of the data subjects is not relevant, he must also note down the justification thereof</strong>.",
-				"name": "Data subject's opinion",
-				"source": "GDPR Art. 35.9 and PIAF Connected Objects p38"
+				"description": "Attiecīgā gadījumā pārzinis pieprasa datu subjektu vai viņu pārstāvju viedokli par plānoto apstrādi, neskarot komerciālu vai sabiedrības interešu aizsardzību vai apstrādes darbību drošību. Skatiet <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR] 35.9. pantu</a><br>Šos viedokļus var apkopot dažādos veidos atkarībā no konteksta (iekšējs vai ārējs pētījums par apstrādes metodēm un mērķi, jautājums, pievēršot personāla pārstāvju vai arodbiedrību uzmanību, datu apstrādātāja nākotnes klientu aptauja). <strong>Ja datu pārzinis nolemj rīkoties pretēji datu subjektu viedoklim</strong>, viņam ir jānorāda <strong>šī lēmuma pamatojums</strong>. Ja datu pārzinis uzskata, ka <strong>datu subjektu viedokļu apkopošana nav būtiska, viņam r jānorāda arī tā pamatojums</strong>",
+				"name": "Datu subjekta viedoklis",
+				"source": "VDAR 35.9. pants un PIAF savienotie objekti 38. lpp."
 			},
 			"PIA_VAL_DPO": {
-				"description": "The controller shall seek the advice of the data protection officer, where designated, when carrying out a data protection impact assessment. See Art. 35.2 of the <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[GDPR]</a><br> <strong>This view may be against the processing being implemented, without restricting the decision of the data controller for all that</strong>.",
-				"name": "DPO's opinion",
-				"source": "GDPR Art. 35.2 and PIAF Connected Objects p37"
+				"description": "Pārzinis, veicot novērtējumu par ietekmi uz datu aizsardzību, lūdz padomu no datu aizsardzības speciālista, ja tāds ir iecelts. Skatiet <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN\">[VDAR]</a><br> <strong> 35.2. pantu Šis viedoklis var būt iebildums pret apstrādes īstenošanu, neierobežojot visu datu pārziņa lēmumu šajā ziņā</strong>.",
+				"name": "DPO viedoklis",
+				"source": "VDAR 35.2. pants un PIAF savienotie objekti 37. lpp."
 			},
 			"PIA_VAL_RT": {
-				"description": "Decide on whether the selected controls, residual risks and action plan are acceptable, with justifications, in view of the previously identified stakes and views of the stakeholders. In this way, the PIA may be:<br>- validated<br>- conditional on improvement (explain in what way)<br>- refused (along with the processing under consideration). Where necessary, repeat the previous steps so that the PIA can be validated. This decision does not prejudge the compliance assessment which may be carried out, where applicable, by the Data Protection Authority (the CNIL in France), as part of preliminary formalities or checks for example.",
-				"name": "Formal validation",
-				"source": "PIAF Connected Objects p40"
+				"description": "Izlemiet, vai izvēlētās kontroles, atlikušie riski un rīcības plāns ir pieņemams (ar pamatojumiem), ņemot vērā iepriekš identificēto ieinteresēto personu ieguldījumu un viedokli. Tādējādi PIA var būt:<br>– validēts;<br>– ar nosacījumu, ka tiks uzlabots (paskaidrojiet, kādā veidā);<br>– atteikts (kopā ar apsveramo apstrādi). Ja nepieciešams, atkārtojiet iepriekšējās darbības, lai PIA varētu validēt. Šis lēmums neskar atbilstības novērtējumu, ko attiecīgā gadījumā var veikt Datu aizsardzības iestāde (CNIL Francijā), piemēram, iepriekšēju formalitāšu vai pārbaužu ietvaros.",
+				"name": "Oficiāla validēšana",
+				"source": "PIAF savienotie objekti 40. lpp."
 			}
 		},
-		"title": "Knowledge base"
+		"title": "Zināšanu bāze"
 	},
 	"measures": {
-		"add": "Add an empty measure (otherwise, use the knowledge base)",
-		"default_placeholder": "Describe the existing or intended measures to ensure data security.",
-		"edit": "Edit measure",
-		"placeholder_title": "Measure title",
-		"remove": "Delete measure"
+		"add": "Pievienojiet tukšu pasākumu (citos gadījumos izmantojiet zināšanu bāzi)",
+		"default_placeholder": "Aprakstiet esošos vai paredzētos pasākumus datu drošības nodrošināšanai."
+		"edit": "Rediģēt pasākumu",
+		"placeholder_title": "Pasākuma nosaukums",
+		"remove": "Dzēst pasākumu"
 	},
-	"misc": {
-		"display": "Show / Hide"
+	"dažādi": {
+		"parādīt": "Parādīt/paslēpt"
 	},
-	"modals": {
+	"modāli": {
 		"abandon_pia": {
-			"additional_text": "Archiving is not definitive and the PIA can go back to it if needed.",
-			"content": "Do you wish to give up the processing?"
+			"additional_text": "Arhivēšana nav galīga, un, ja nepieciešams, PIA pie tā var atgriezties.",
+			"content": "Vai vēlaties atteikties no apstrādes?"
 		},
 		"action_plan_no_evaluation": {
-			"content": "You need to begin the review of the analysis to create the action plan.",
-			"review_section": "Review a section"
+			"content": "Jums ir jāsāk analīzes pārskatīšana, lai izveidotu rīcības plānu."
+			"review_section": "Pārskatīt sadaļu"
 		},
-		"archive": "Archive",
+		"arhīvs": "Arhīvs",
 		"archive_pia": {
-			"archive": "Archive PIA",
-			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>archive this PIA ?"
+			"arhīvs": "Arhīva PIA",
+			"content": "<span class='strong'>Brīdinājums:</span><br>Vai tiešām vēlaties<br>arhivēt šo PIA?"
 		},
 		"ask_for_evaluation": {
-			"content": "This section is ready to be reviewed."
+			"content": "Šī sadaļa ir gatava pārskatīšanai."
 		},
 		"back_to_edition": {
-			"content": "This section has been sent back for editing.<br> Several fields must be corrected<br> to enable its proper review."
+			"content": "Šī sadaļa ir nosūtīta atpakaļ rediģēšanai.<br> Vairāki lauki ir jālabo<br>, lai to varētu pienācīgi pārskatīt."
 		},
 		"back_to_evaluation": {
-			"content": "This section has been sent back for review.<br> Several fields must be reviewed<br> to enable its proper validation."
+			"content": "Šī sadaļa ir nosūtīta atpakaļ pārskatīšanai.<br> Vairāki lauki ir jāpārskata<br>, lai tos varētu pienācīgi validēt."
 		},
-		"back_to_home": "Back to home",
-		"cancel": "Cancel",
-		"close": "Close",
+		"back_to_home": "Atpakaļ uz sākumu",
+		"cancel": "Atcelt",
+		"close": "Aizvērt",
 		"completed_edition": {
-			"content": "The PIA has been fully edited and has to be reviewed."
+			"content": "PIA ir pilnībā rediģēts, un tas ir jāpārskata."
 		},
 		"completed_evaluation": {
-			"content": "The PIA has been fully reviewed and can be validated."
+			"content": "PIA ir pilnībā pārskatīts, un tas ir jāvalidē."
 		},
-		"continue": "Continue",
+		"continue": "Turpināt":
 		"declare_measures": {
-			"content": "Before evaluating risks,<br>you must report the<br>existing or planned measures.",
-			"declare": "Declare existing or planned measures"
+			"content": "Pirms risku novērtēšanas <br>jums ir jāziņo par<br>esošajiem vai plānotajiem pasākumiem.",
+			"declare": "Paziņot par esošiem vai plānotiem pasākumiem"
 		},
 		"dpo_missing_evaluations": {
-			"comment": "Comment",
-			"content": "You need to complete the review of the analysis to access the DPO page.",
-			"remove": "Remove",
-			"review_section": "Review a section"
+			"comment": "Komentārs",
+			"content": "Jums ir jāpabeidz analīzes pārskatīšana, lai piekļūtu DPO lapai."
+			"remove": "Noņemt",
+			"review_section": "Pārskatīt sadaļu"
 		},
 		"import_wrong_pia_file": {
-			"content": "The imported file doesn't correspond to a PIA report file."
+			"content": "Importētais fails neatbilst PIA ziņojuma failam."
 		},
 		"import_wrong_structure_file": {
-			"content": "The imported file doesn't correspond to a PIA template file."
+			"content": "Importētais fails neatbilst PIA veidnes failam."
 		},
 		"modal_select_text_pia": {
-			"content": "The content of the PIA has been copied to clipboard."
+			"content": "PIA saturs ir pārkopēts uz starpliktuvi."
 		},
 		"not_enough_measures_to_remove": {
-			"content": "<span class='strong'>Warning,</span><br>At least one measure must be filled: no deletion possible."
+			"content": "<span class='strong'>Brīdinājums:</span><br>jāaizpilda vismaz viens pasākums: dzēšana nav iespējama."
 		},
 		"recover_version": {
-			"continue": "Continue",
-			"message": "By continuing, you will restore this report version: {{date}}.<br><br>The current version will be saved.",
-			"title": "Restore a previous version"
+			"continue": "Turpināt":
+			"message": "Turpinot jūs atjaunosit šo ziņojuma versiju: {{date}}.<br><br>Pašreizējā versija tiks saglabāta.",
+			"title": "Atjaunot iepriekšējo versiju"
 		},
 		"refuse_pia": {
-			"content": "As you have rejected the PIA, it is sent back for review to make the required changes."
+			"content": "Tā kā esat noraidījis PIA, tas tiek nosūtīts atpakaļ pārskatīšanai, lai veiktu nepieciešamās izmaiņas."
 		},
 		"remove_attachment": {
-			"comment": "Comment",
-			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>remove this attachment?",
-			"keep": "Keep",
-			"remove": "Remove"
+			"comment": "Komentārs",
+			"content": "<span class='strong'>Brīdinājums:</span><br>vai tiešām vēlaties<br>noņemt šo pielikumu?",
+			"keep": "Paturēt",
+			"remove": "Noņemt"
 		},
 		"remove_measure": {
-			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to <br>remove this measure?",
-			"keep": "Keep this <br>measure",
-			"remove": "Remove this <br>measure"
+			"content": "<span class='strong'>Brīdinājums:</span><br>vai tiešām vēlaties<br>noņemt šo pasākumu?",
+			"keep": "Paturēt šo <br>pasākumu",
+			"remove": "Noņemt šo <br>pasākumu"
 		},
 		"remove_pia": {
-			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>remove permanently this PIA?",
-			"remove": "Remove this PIA"
+			"content": "<span class='strong'>Brīdinājums:</span><br>vai tiešām vēlaties<br>neatgriezeniski noņemt šo PIA?",
+			"remove": "Noņemt šo PIA"
 		},
 		"remove_question": {
-			"content": "Are you sure you want to delete the question?",
-			"keep": "Cancel",
-			"remove": "Delete"
+			"content": "Vai tiešām dzēst jautājumu?",
+			"keep": "Atcelt",
+			"remove": "Dzēst"
 		},
 		"remove_structure": {
-			"content": "<span class='strong'>Warning,</span><br>Are you sure you want<br>to delete the template?",
-			"remove": "Delete template"
+			"content": "<span class='strong'>Brīdinājums:</span><br>vai tiešām<br>dzēst šo veidni?",
+			"remove": "Dzēst veidni"
 		},
 		"same_comment": {
-			"content": "<span class='strong'>Warning,</span><br>Please enter a comment different from the last recorded."
+			"content": "<span class='strong'>Brīdinājums:</span><br>lūdzu, ievadiet komentāru, kas atšķiras no pēdējā ierakstītā."
 		},
 		"signed_pia_validation": {
-			"content": "To approve the PIA, attach the signed report.",
-			"download_pia": "Download report"
+			"content": "Lai apstiprinātu PIA, pievienojiet parakstīto ziņojumu.",
+			"download_pia": "Lejupielādēt ziņojumu"
 		},
 		"simple_pia_validation": {
-			"content": "You have approved the PIA."
+			"content": "Jūs esat apstiprinājis PIA."
 		},
-		"start_evaluation": "Start review",
+		"start_evaluation": "Sākt pārskatu",
 		"unarchive_pia": {
-			"content": "<span class='strong'>Warning,</span><br>Are you sure you want to<br>unarchive this PIA ?",
-			"unarchive": "Unarchive PIA"
+			"content": "<span class='strong'>Brīdinājums:</span><br>vai tiešām<br>atarhivēt šo PIA?",
+			"unarchive": "Atarhivēt PIA"
 		},
 		"update_server_url_nok": {
-			"content": "Connection impossible."
+			"content": "Savienojums nav iespējams."
 		},
 		"update_server_url_ok": {
-			"content": "The server address has been updated."
+			"content": "Servera adrese ir atjaunināta."
 		},
 		"validate_evaluation": {
-			"content": "This section is ready for validating the PIA."
+			"content": "Šī sadaļa ir gatava PIA validēšanai."
 		},
 		"validate_evaluation_to_correct": {
-			"content": "Sorry,<br>Several fields must be corrected.<br>Return to edition mode<br>to make corrections."
+			"content": "Diemžēl<br>ir jāizlabo vairāki lauki. <br>Atgriezieties izdevuma režīmā<br>, lai veiktu labojumus."
 		},
 		"general_error": {
-			"content": "All our apologies an error has occurred."
+			"content": "Diemžēl radās kļūda."
 		}
 	},
 	"opinions": {
 		"content": ", consider that :",
-		"dpo_lock": "Please complete the other sections before you can fill the DPO opinion.",
-		"dpo_opinion": "DPO opinion",
-		"edit": "Edit",
-		"people_opinion": "Concerned people opinion",
-		"placeholder_concerned_people_name": "Concerned people name(s)",
-		"placeholder_dpo_name": "DPO name(s)",
-		"placeholder_dpo_opinion": "Specify the reasons for your choice.",
-		"placeholder_people_opinion": "Describe how the opinions were collected and what the analysis is. If the opinions have not been sought, state the reasons.",
-		"placeholder_search_content": "Justify the reason why the opinion of the persons concerned has not been requested.",
-		"treatment_lock": "Please complete the other sections before you can fill the opinions of the persons concerned.",
-		"treatment_nok": "The treatment should not be used.",
-		"treatment_ok": "The treatment could be implemented."
+		"dpo_lock": "Lai aizpildītu DPO viedokli, lūdzu, vispirms aizpildiet citas sadaļas.",
+		"dpo_opinion": "DPO viedoklis",
+		"edit": "Rediģēt",
+		"people_opinion": "Ieinteresēto cilvēku viedokļi"
+		"placeholder_concerned_people_name": "Ieinteresētā(-o) cilvēka(-u) vārds(-i)",
+		"placeholder_dpo_name": "DPO vārds(-i)",
+		"placeholder_dpo_opinion": "Norādiet savas izvēles iemeslus.",
+		"placeholder_people_opinion": "Aprakstiet, kā tika apkopoti viedokļi un kāda ir analīze. Ja viedokļi nav vaicāti, norādiet iemeslus.",
+		"placeholder_search_content": "Pamatojiet iemeslu, kāpēc nav vaicāts ieinteresēto personu viedoklis.",
+		"treatment_lock": "Lai aizpildītu saistīto personu viedokli, lūdzu, vispirms aizpildiet citas sadaļas.",
+		"treatment_nok": "Apstrādi nevajadzētu lietot.",
+		"treatment_ok": "Apstrādi varētu īstenot."
 	},
 	"overview-risks": {
-		"important": "Important",
-		"limited": "Limited",
-		"maximal": "Maximal",
-		"measures": "Measures",
-		"negligible": "Negligible",
-		"potential_impacts": "Potential impacts",
-		"risk-access_x": "Severity",
-		"risk-access_y": "Likelihood",
-		"risk-change_x": "Severity",
-		"risk-change_y": "Likelihood",
-		"risk-disappearance_x": "Severity",
-		"risk-disappearance_y": "Likelihood",
-		"sources": "Sources",
-		"threat": "Threats"
+		"important": "Svarīgs",
+		"limited": "Ierobežots",
+		"maximal": "Maksimāls",
+		"measures": "Pasākumi",
+		"negligible": "Nenozīmīgs",
+		"potential_impacts": "Potenciālā ietekme",
+		"risk-access_x": "Smagums",
+		"risk-access_y": "Varbūtība",
+		"risk-change_x": "Smagums",
+		"risk-change_y": "Varbūtība",
+		"risk-disappearance_x": "Smagums",
+		"risk-disappearance_y": "Varbūtība",
+		"sources": "Avoti",
+		"threat": "Draudi"
 	},
 	"pia": {
 		"attachments": {
-			"add": "Add",
-			"download": "Download the attachment",
-			"remove": "Remove",
-			"title": "Attachments"
+			"add": "Pievienot",
+			"download": "Lejupielādēt pielikumu",
+			"remove": "Noņemt",
+			"title": "Pielikumi"
 		},
 		"footer": {
-			"ask_evaluation": "Ask for review",
-			"mandatory_fields": "All fields must be filled",
-			"structure_add_question": "Add a question",
-			"subsection_validated": "Subsection reviewed, awaiting final validation",
-			"validate_evaluation": "Validate review"
+			"ask_evaluation": "Prasīt pārskatu",
+			"mandatory_fields": "Visiem laukiem jābūt aizpildītiem",
+			"structure_add_question": "Pievienot jautājumu",
+			"subsection_validated": "Apakšsadaļa pārskatīta, gaida galīgo validāciju",
+			"validate_evaluation": "Validēt pārskatu"
 		},
 		"header": {
-			"display_action_plan": "Display<br>action plan",
-			"edition": "Edition",
-			"evaluation": "Evaluation",
-			"preview": "Preview"
+			"display_action_plan": "Parādīt<br>rīcības plānu",
+			"edition": "Izdevums",
+			"evaluation": "Novērtējums",
+			"preview": "Priekšskatījums"
 		},
 		"sections": {
-			"based_on_structure_name": "Based on template:",
-			"homepage_link": "Back to dashboard",
-			"refuse_pia": "Refused PIA",
+			"based_on_structure_name": "Balstīts uz veidni:",
+			"homepage_link": "Atpakaļ uz informācijas paneli",
+			"refuse_pia": "Noraidīts PIA",
 			"status": {
 				"evaluation": {
-					"cancel": "cancel the review request.",
-					"cancel_button": "Cancel the review request",
-					"content": "This part has not yet been reviewed. If you wish to edit the content submitted for review you have to ",
-					"title": "Waiting for review."
+					"cancel": "atcelt pārskata pieprasījumu.",
+					"cancel_button": "Atcelt pārskata pieprasījumu",
+					"content": "Šī daļa vēl nav pārskatīta. Ja vēlaties rediģēt pārskatīšanai iesniegto saturu, jums ir ",
+					"title": "Gaida pārskatu."
 				},
 				"validation": {
-					"cancel": "cancel the validation request.",
-					"cancel_button": "Cancel the validation request",
-					"content": "This part has been reviewed and is waiting for the overall PIA validation. If you wish to change the review, you have to ",
-					"title": "Waiting for validation."
+					"cancel": "atcelt validācijas pieprasījumu.",
+					"cancel_button": "Atcelt validācijas pieprasījumu",
+					"content": "Šī daļa ir pārskatīta un gaida vispārēju PIA validāciju. Ja vēlaties mainīt pārskatu, jums ir ",
+					"title": "Gaida validāciju."
 				}
 			},
-			"validate_pia": "Validate PIA"
+			"validate_pia": "Validēt PIA"
 		},
 		"statuses": [
-			"In progress",
-			"Rejected",
-			"Simple validation",
-			"Signed validation",
-			"Archived",
-			"Waiting for validation"
+			"Notiek",
+			"Noraidīts",
+			"Vienkārša validācija",
+			"Parakstīta validācija",
+			"Arhivēts",
+			"Gaida validāciju"
 		]
 	},
 	"questions": {
-		"edit": "Edit question",
+		"edit": "Rediģēt jautājumu",
 		"gauges": [
-			"(Undefined)",
-			"Negligible",
-			"Limited",
-			"Important",
-			"Maximum"
+			"(Nedefinēts)",
+			"Nenozīmīgs",
+			"Ierobežots",
+			"Svarīgs",
+			"Maksimums"
 		],
-		"placeholder_title": "Question title (mandatory)",
-		"remove": "Delete question"
+		"placeholder_title": "Jautājuma nosaukums (obligāts)",
+		"remove": "Dzēst jautājumu"
 	},
 	"rejection_page": {
-		"applied_adjustments": "Adjustments proposed",
-		"applied_adjustments_placeholder": "Describe the changes brought to the PIA.",
+		"applied_adjustments": "Ierosinātie pielāgojumi",
+		"applied_adjustments_placeholder": "Aprakstiet PIA veiktās izmaiņas.",
 		"button": {
-			"abandon_treatment": "Abandon processing",
-			"reject_pia": "Reject PIA",
-			"send_for_validation": "Resend for approval"
+			"abandon_treatment": "Pamest apstrādi",
+			"reject_pia": "Noraidīt PIA",
+			"send_for_validation": "Atkārtoti nosūtīt apstiprināšanai"
 		},
-		"previous_rejection": "Previous refusal",
-		"rejection_reason": "Refusal reason",
-		"rejection_reason_placeholder": "Describe the reasons for refusing the PIA.",
-		"title": "Validation history"
+		"previous_rejection": "Iepriekšējs atteikums",
+		"rejection_reason": "Atteikuma iemesls",
+		"rejection_reason_placeholder": "Aprakstiet PIA atteikuma iemeslus.",
+		"title": "Validācijas vēsture"
 	},
 	"sections": {
 		"1": {
@@ -1097,358 +1097,358 @@
 				"1": {
 					"questions": {
 						"1": {
-							"placeholder": "Present a brief outline of the processing: its name, purposes, stakes, context of use, etc.",
-							"title": "What is the processing under consideration?"
+							"placeholder": "Iesniedziet īsu apstrādes izklāstu: nosaukums, mērķi, ieguldījums, izmantošanas konteksts utt.",
+							"title": "Kāda ir apsveramā apstrāde?"
 						},
 						"2": {
-							"placeholder": "Describe the responsibilities of the stakeholders: the data controller, the possible data processors and joint controllers.",
-							"title": "What are the responsibilities linked to the processing?"
+							"placeholder": "Aprakstiet, kādi pienākumi ir ieinteresētajām personām: datu pārzinim, iespējamiem datu apstrādātājiem un kopīgajiem pārziņiem.",
+							"title": "Kādi pienākumi ir saistīti ar apstrādi?"
 						},
 						"3": {
-							"placeholder": "List the relevant standards applicable to the processing, especially approved codes of conduct and data protection certifications.",
-							"title": "Are there standards applicable to the processing?"
+							"placeholder": "Uzskaitiet apstrādei piemērojamos attiecīgos standartus, it īpaši apstiprinātos rīcības kodeksus un datu aizsardzības sertifikātus.",
+							"title": "Vai pastāv apstrādei piemērojami standarti?"
 						}
 					},
-					"short_help": "This part allows you to identify and present the object of the study.",
-					"title": "Overview"
+					"short_help": "Šajā daļā varat identificēt un parādīt pētījuma objektu.",
+					"title": "Pārskats"
 				},
 				"2": {
 					"questions": {
 						"1": {
-							"placeholder": "List the data collected and processed. Define for each the storage durations, the recipients and persons with access thereto.",
-							"title": "What are the data processed?"
+							"placeholder": "Uzskaitiet apkopotos un apstrādātos datus. Katram definējiet glabāšanas ilgumu, adresātus un personas, kurām tie ir pieejami.",
+							"title": "Kādi dati tiek apstrādāti?"
 						},
 						"2": {
-							"placeholder": "Present and describe how the product generally works (from the data collection to the data destruction, the different processing stages, storage, etc.), using for example a diagram of data flows (add it as an attachment) and a detailed description of the processes carried out.",
-							"title": "How does the life cycle of data and processes work?"
+							"placeholder": "Parādiet un aprakstiet, kā produkts kopumā darbojas (no datu apkopošanas līdz to iznīcināšanai, dažādi apstrādes posmi, glabāšana utt.), izmantojot, piemēram, datu plūsmu shēmu (pievienojiet to kā pielikumu) un veikto procesu detalizētu aprakstu.",
+							"title": "Kā darbojas datu un procesu dzīves cikls?"
 						},
 						"3": {
-							"placeholder": "List the data supporting assets (operating systems, business applications, database management systems, office suites, protocols, configurations, etc.)",
-							"title": "What are the data supporting assets?"
+							"placeholder": "Uzskaitiet datus, kas atbalsta aktīvus (operētājsistēmas, biznesa lietotnes, datu bāzes pārvaldības sistēmas, biroja komplekti, protokoli, konfigurācijas utt.)",
+							"title": "Kādi ir datu atbalsta aktīvi?"
 						}
 					},
-					"short_help": "This part allows you to define and describe the scope of the processing in detail.",
-					"title": "Data, processes and supporting assets"
+					"short_help": "Šajā daļā var detalizēti definēt un aprakstīt apstrādes apjomu.",
+					"title": "Dati, procesi un atbalsta līdzekļi"
 				}
 			},
-			"short_help": "This section gives you a clear view of the treatment(s) of personal data in question.",
-			"title": "Context"
+			"short_help": "Šajā sadaļā tiek sniegts skaidrs priekšstats par attiecīgo personas datu apstrādi(-ēm).",
+			"title": "Konteksts"
 		},
 		"2": {
 			"items": {
 				"1": {
 					"questions": {
 						"1": {
-							"placeholder": "Explain why the processing purposes are specified, explicit and legitimate.",
-							"short_title": "Purposes",
-							"title": "Are the processing purposes specified, explicit and legitimate?"
+							"placeholder": "Paskaidrojiet, kāpēc apstrādes mērķi ir konkrēti, skaidri un leģitīmi.",
+							"short_title": "Mērķi",
+							"title": "Vai apstrādes mērķi ir konkrēti, skaidri un leģitīmi?"
 						},
 						"2": {
-							"placeholder": "Describe what is/are the legal basis of your processing (ex: consent, performance of a contract, compliance with a legal obligation, protecting the vital intests, etc.)",
-							"short_title": "Legal basis",
-							"title": "What are the legal basis making the processing lawful?"
+							"placeholder": "Aprakstiet, kāds(-i) ir jūsu apstrādes juridiskais(-ie) pamats(-i) (piemēram, piekrišana, līguma izpilde, juridisko saistību ievērošana, svarīgu interešu aizsardzība)",
+							"short_title": "Juridiskais pamats",
+							"title": "Kāds ir juridiskais pamats, lai apstrāde būtu likumīga?"
 						},
 						"3": {
-							"placeholder": "Explain why each of the data collected is necessary for the purposes of your processing.",
-							"short_title": "Adequate data",
-							"title": "Are the data collected adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed ('data minimisation')?"
+							"placeholder": "Paskaidrojiet, kāpēc katri no apkopotajiem datiem ir nepieciešami jūsu apstrādes vajadzībām.",
+							"short_title": "Atbilstīgi dati",
+							"title": "Vai apkopotie dati ir atbilstīgi, adekvāti un ietver tikai to, kas ir nepieciešams to apstrādes nolūkiem ("datu minimizācija")?"
 						},
 						"4": {
-							"placeholder": "Describe which are the steps taken to ensure the quality of the data.",
-							"short_title": "Data accuracy",
-							"title": "Are the data accurate and kept up to date?"
+							"placeholder": "Aprakstiet darbības, kas veiktas, lai nodrošinātu datu kvalitāti.",
+							"short_title": "Datu precizitāte",
+							"title": "Vai dati ir precīzi un tiek regulāri atjaunināti?"
 						},
 						"5": {
-							"placeholder": "Explain why the storage durations are justified by legal requirements and/or processing needs.",
-							"short_title": "Storage duration",
-							"title": "What are the storage duration of the data?"
+							"placeholder": "Paskaidrojiet, kāpēc glabāšanas ilgums ir pamatots ar tiesību aktu prasībām un/vai apstrādes vajadzībām.",
+							"short_title": "Glabāšanas ilgums",
+							"title": "Kāds ir datu glabāšanas ilgums?"
 						}
 					},
-					"short_help": "This part allows you to demonstrate the legitimacy of your treatment and of the data processed.",
-					"title": "Proportionality and necessity"
+					"short_help": "Šajā daļā varat parādīt apstrādes un apstrādāto datu leģitimitāti.",
+					"title": "Proporcionalitāte un nepieciešamība"
 				},
 				"2": {
 					"questions": {
 						"1": {
-							"placeholder": "Describe what is the information given to the data subjects and what are the means to do it.",
-							"short_title": "Information for the data subjects",
-							"title": "How are the data subjects informed on the processing?"
+							"placeholder": "Aprakstiet, kāda ir datu subjektiem sniegtā informācija un kādi ir līdzekļi šī procesa veikšanai.",
+							"short_title": "Informācija datu subjektiem",
+							"title": "Kā datu subjekti tiek informēti par apstrādi?"
 						},
 						"2": {
-							"placeholder": "Describe the controls intended to ensure that users' consent has been obtained.",
-							"short_title": "Obtaining consent",
-							"title": "If applicable, how is the consent of data subjects obtained?"
+							"placeholder": "Aprakstiet kontroles, kas ir paredzētas, lai nodrošinātu lietotāju piekrišanas saņemšanu.",
+							"short_title": "Piekrišanas saņemšana",
+							"title": "Kā tiek iegūta datu subjektu piekrišana (ja piemērojams)?"
 						},
 						"3": {
-							"placeholder": "Describe the controls intended for enabling data subjects to access, receive and transmit their data.",
-							"short_title": "Right of access and to data portability",
-							"title": "How can data subjects exercise their rights of access and to data portability?"
+							"placeholder": "Aprakstiet kontroles, kas datu subjektiem ļauj piekļūt saviem datiem, tos saņemt un pārsūtīt.",
+							"short_title": "Piekļuves un datu pārnesamības tiesības",
+							"title": "Kā datu subjekti var izmantot savas tiesības uz piekļuvi un datu pārnesamību?"
 						},
 						"4": {
-							"placeholder": "Describe the controls intended for enabling data subjects to rectify and erase their data.",
-							"short_title": "Right to rectification and erasure",
-							"title": "How can data subjects exercise their rights to rectification and erasure?"
+							"placeholder": "Aprakstiet kontroles, kas datu subjektiem ļauj labot un dzēst savus datus.",
+							"short_title": "Tiesības uz labošanu un dzēšanu",
+							"title": "Kā datu subjekti var izmantot savas tiesības uz labošanu un dzēšanu?"
 						},
 						"5": {
-							"placeholder": "Describe the controls intended for enabling data subjects to restrict and to object to the processing of their data.",
-							"short_title": "Right to restriction and to object",
-							"title": "How can data subjects exercise their rights to restriction and to object?"
+							"placeholder": "Aprakstiet kontroles, kas datu subjektiem ļauj ierobežot savu datu apstrādi un iebilst pret to.",
+							"short_title": "Tiesības ierobežot apstrādi un iebilst",
+							"title": "Kā datu subjekti var izmantot savas tiesības uz apstrādes ierobežošanu un iebildumiem?"
 						},
 						"6": {
-							"placeholder": "For each processor, describe his responsibilities (duration, scope, purpose, documented processing instructions, prior authorisation) and provide the contracts, codes of conduct and certifications determining its missions and obligations.",
-							"short_title": "Subcontracting",
-							"title": "Are the obligations of the processors clearly identified and governed by a contract?"
+							"placeholder": "Aprakstiet katra apstrādātāja pienākumus (ilgums, darbības joma, mērķis, dokumentētas apstrādes instrukcijas, iepriekšēja atļauja) un norādiet līgumus, rīcības kodeksus un sertifikātus, kas nosaka tā uzdevumus un pienākumus.",
+							"short_title": "Apakšlīgumi",
+							"title": "Vai pārstrādātāju pienākumi ir skaidri noteikti un reglamentēti ar līgumu?"
 						},
 						"7": {
-							"placeholder": "For each country outside the European Union where data are stored or processed, name it and tell if it is acknowledged as offering an adequate level of data protection or describe the provisions concerning the transfer.",
-							"short_title": "Transfers",
-							"title": "In the case of data transfer outside the European Union, are the data adequately protected?"
+							"placeholder": "Nosauciet katru valsti ārpus Eiropas Savienības, kur dati tiek glabāti vai apstrādāti, un norādiet, vai tā ir atzīta kā tāda, kas piedāvā adekvātu datu aizsardzības līmeni, vai aprakstiet nosūtīšanas nosacījumus.",
+							"short_title": “Nosūtīšana",
+							"title": "Vai, nosūtot ārpus Eiropas Savienības, dati ir atbilstoši aizsargāti?"
 						}
 					},
-					"short_help": "This part allows you to demonstrate that you are implementing the necessary means to enable the persons concerned to exercise their rights.",
-					"title": "Controls to protect the personal rights of data subjects"
+					"short_help": "Šajā daļā varat parādīt, ka izmantojat nepieciešamos līdzekļus, lai attiecīgās personas varētu izmantot savas tiesības.",
+					"title": "Kontroles datu subjektu personas tiesību aizsardzībai"
 				}
 			},
-			"short_help": "This section allows you to build the compliance framework for privacy principles.",
-			"title": "Fundamental principles"
+			"short_help": "Šajā sadaļā varat izveidot atbilstības sistēmu privātuma principiem.",
+			"title": "Pamatprincipi"
 		},
 		"3": {
 			"items": {
 				"1": {
-					"short_help": "This section allows you to identify controls (existing or planned) that contribute to data security.",
-					"title": "Planned or existing measures"
+					"short_help": "Šajā sadaļā varat identificēt kontroles (esošas vai plānotas), kas veicina datu drošību.",
+					"title": "Plānoti vai esoši pasākumi"
 				},
 				"2": {
 					"questions": {
 						"1": {
-							"placeholder": "Enter the potential impacts",
-							"title": "What could be the main <span class='green-highlight'>impacts on the data subjects</span> if the risk were to occur?"
+							"placeholder": "Ievadiet iespējamās ietekmes",
+							"title": "Kādas varētu būt galvenās <span class='green-highlight'>ietekmes uz datu subjektiem</span>, ja rastos risks?"
 						},
 						"2": {
-							"placeholder": "Enter the threats",
-							"title": "What are the main <span class='green-highlight'>threats</span> that could lead to the risk?"
+							"placeholder": "Ierakstiet apdraudējumus",
+							"title": "Kādi ir galvenie <span class='green-highlight'>apdraudējumi</span>, kas varētu izraisīt risku?"
 						},
 						"3": {
-							"placeholder": "Enter the risk sources",
-							"title": "What are the risk <span class='green-highlight'>sources</span>?"
+							"placeholder": "Ievadiet risku avotus",
+							"title": "Kādi ir risku <span class='green-highlight'>avoti</span>?"
 						},
 						"4": {
-							"placeholder": "Click here to select controls which address the risk.",
-							"title": "Which of the identified <span class='green-highlight'>planned controls</span> contribute to addressing the risk?"
+							"placeholder": "Noklikšķiniet šeit, lai atlasītu kontroles, kas pievēršas riskam.",
+							"title": "Kuras no identificētajām <span class='green-highlight'>plānotajām kontrolēm</span> veicina pievēršanos riskiem?"
 						},
 						"5": {
-							"placeholder": "Justify here the estimated severity of the risk.",
-							"title": "How do you estimate the <span class='green-highlight'>risk severity</span>, especially according to potential impacts and planned controls?"
+							"placeholder": "Šeit pamatojiet paredzamo riska smagumu.",
+							"title": "Kā jūs vērtējat <span class='green-highlight'> riska smagumu </span>, it īpaši saskaņā ar iespējamām ietekmēm un plānotajām kontrolēm?"
 						},
 						"6": {
-							"placeholder": "Justify here the estimated likelihood.",
-							"title": "How do you estimate the <span class='green-highlight'>likelihood of the risk</span>, especially in respect of threats, sources of risk and planned controls?"
+							"placeholder": "Šeit pamatojiet paredzamo varbūtību.",
+							"title": "Kā jūs vērtējat <span class='green-highlight'>riska iespējamību </span>, it īpaši attiecībā uz apdraudējumiem, riska avotiem un plānotajām kontrolēm?"
 						}
 					},
-					"short_help": "Analyze the causes and consequences of illegitimate access to data, and estimate its severity and likelihood.",
-					"title": "Illegitimate access to data"
+					"short_help": "Analizējiet datu nelikumīgas piekļuves cēloņus un sekas, kā arī novērtējiet to smagumu un iespējamību.",
+					"title": "Nelikumīga piekļuve datiem"
 				},
 				"3": {
 					"questions": {
 						"1": {
-							"placeholder": "Enter the potential impacts",
-							"title": "What could be the main <span class='green-highlight'>impacts on the data subjects</span> if the risk were to occur?"
+							"placeholder": "Ievadiet iespējamās ietekmes",
+							"title": "Kādas varētu būt galvenās <span class='green-highlight'>ietekmes uz datu subjektiem</span>, ja rastos risks?"
 						},
 						"2": {
-							"placeholder": "Enter the threats",
-							"title": "What are the main <span class='green-highlight'>threats</span> that could lead to the risk?"
+							"placeholder": "Ierakstiet apdraudējumus",
+							"title": "Kādi ir galvenie <span class='green-highlight'>apdraudējumi</span>, kas varētu izraisīt risku?"
 						},
 						"3": {
-							"placeholder": "Enter the risk sources",
-							"title": "What are the risk <span class='green-highlight'>sources</span>?"
+							"placeholder": "Ievadiet risku avotus",
+							"title": "Kādi ir risku <span class='green-highlight'>avoti</span>?"
 						},
 						"4": {
-							"placeholder": "Click here to select controls which address the risk.",
-							"title": "Which of the identified <span class='green-highlight'>controls</span> contribute to addressing the risk?"
+							"placeholder": "Noklikšķiniet šeit, lai atlasītu kontroles, kas pievēršas riskam.",
+							"title": "Kuras no identificētajām <span class='green-highlight'>kontrolēm</span> veicina pievēršanos riskam?"
 						},
 						"5": {
-							"placeholder": "Justify here the estimated severity of the risk.",
-							"title": "How do you estimate the <span class='green-highlight'>risk severity</span>, especially according to potential impacts and planned controls?"
+							"placeholder": "Šeit pamatojiet paredzamo riska smagumu.",
+							"title": “Kā jūs vērtējat <span class='green-highlight'> riska smagumu </span>, it īpaši saskaņā ar iespējamām ietekmēm un plānotajām kontrolēm?"
 						},
 						"6": {
-							"placeholder": "Justify here the estimated likelihood.",
-							"title": "How do you estimate the <span class='green-highlight'>likelihood of the risk</span>, especially in respect of threats, sources of risk and planned controls?"
+							"placeholder": "Šeit pamatojiet paredzamo varbūtību.",
+							"title": "Kā jūs vērtējat <span class='green-highlight'>riska iespējamību </span>, it īpaši attiecībā uz apdraudējumiem, riska avotiem un plānotajām kontrolēm?"
 						}
 					},
-					"short_help": "Analyze the causes and consequences of an undesired change in data, and estimate its seriousness and likelihood.",
-					"title": "Unwanted modification of data"
+					"short_help": "Analizējiet nevēlamu datu izmaiņu cēloņus un sekas, novērtējiet to nopietnību un iespējamību.",
+					"title": "Nevēlama datu pārveidošana"
 				},
 				"4": {
 					"questions": {
 						"1": {
-							"placeholder": "Enter the potential impacts",
-							"title": "What could be the main <span class='green-highlight'>impacts on the data subjects</span> if the risk were to occur?"
+							"placeholder": "Ievadiet iespējamās ietekmes",
+							"title": "Kādas varētu būt galvenās <span class='green-highlight'>ietekmes uz datu subjektiem</span>, ja rastos risks?"
 						},
 						"2": {
-							"placeholder": "Enter the threats",
-							"title": "What are the main <span class='green-highlight'>threats</span> that could lead to the risk?"
+							"placeholder": "Ierakstiet apdraudējumus",
+							"title": "Kādi ir galvenie <span class='green-highlight'>apdraudējumi</span>, kas varētu izraisīt risku?"
 						},
 						"3": {
-							"placeholder": "Enter the risk sources",
-							"title": "What are the risk <span class='green-highlight'>sources</span>?"
+							"placeholder": "Ievadiet risku avotus",
+							"title": "Kādi ir risku <span class='green-highlight'>avoti</span>?"
 						},
 						"4": {
-							"placeholder": "Click here to select controls which address the risk.",
-							"title": "Which of the identified <span class='green-highlight'>controls</span> contribute to addressing the risk?"
+							"placeholder": "Noklikšķiniet šeit, lai atlasītu kontroles, kas pievēršas riskam.",
+							"title": "Kuras no identificētajām <span class='green-highlight'>kontrolēm</span> veicina pievēršanos riskam?"
 						},
 						"5": {
-							"placeholder": "Justify here the estimated severity of the risk.",
-							"title": "How do you estimate the <span class='green-highlight'>risk severity</span>, especially according to potential impacts and planned controls?"
+							"placeholder": "Šeit pamatojiet paredzamo riska smagumu.",
+							"title": “Kā jūs vērtējat <span class='green-highlight'> riska smagumu </span>, it īpaši saskaņā ar iespējamām ietekmēm un plānotajām kontrolēm?"
 						},
 						"6": {
-							"placeholder": "Justify here the estimated likelihood.",
-							"title": "How do you estimate the <span class='green-highlight'>likelihood of the risk</span>, especially in respect of threats, sources of risk and planned controls?"
+							"placeholder": "Šeit pamatojiet paredzamo varbūtību.",
+							"title": "Kā jūs vērtējat <span class='green-highlight'>riska iespējamību </span>, it īpaši attiecībā uz apdraudējumiem, riska avotiem un plānotajām kontrolēm?"
 						}
 					},
-					"short_help": "Analyze the causes and consequences of data loss, and estimate its seriousness and likelihood.",
-					"title": "Data disappearance"
+					"short_help": "Analizējiet datu zuduma cēloņus un sekas, novērtējiet to nopietnību un iespējamību.",
+					"title": "Datu zudums"
 				},
 				"5": {
-					"short_help": "This visualisation allows you to have a global and synthetic view on the controls effects on the risks they address.",
-					"title": "Risks overview"
+					"short_help": "Šī vizualizācija ļauj iegūt globālu un sintētisku priekšstatu par kontroļu ietekmi uz riskiem, kuriem tās pievēršas.",
+					"title": "Risku pārskats"
 				}
 			},
-			"short_help": "This section allows you to assess the privacy risks, taking into account existing or planned controls.",
-			"title": "Risks"
+			"short_help": "Šajā sadaļā varat novērtēt privātuma riskus, ņemot vērā esošās vai plānotās kontroles.",
+			"title": "Riski"
 		},
 		"4": {
 			"items": {
 				"1": {
-					"short_help": "This visualisation allows you to compare the positioning of the risks between them, before and after application of the complementary controls.",
-					"title": "Risk mapping"
+					"short_help": "Šī vizualizācija ļauj salīdzināt risku savstarpējo izvietojumu pirms un pēc papildu kontroļu pielietošanas.",
+					"title": "Risku kartēšana"
 				},
 				"2": {
-					"short_help": "Plan in detail the implementation of the additional controls identified during the PIA. The action plan is automatically updated when evaluating the different elements comprised in the PIA.",
-					"title": "Action plan"
+					"short_help": "Detalizēti plānojiet PIA laikā identificēto papildu kontroļu ieviešanu. Rīcības plāns tiek automātiski atjaunināts, novērtējot dažādus PIA elementus.",
+					"title": "Rīcības plāns"
 				},
 				"3": {
-					"short_help": "Present the advice of the person in charge of data protection and privacy issues (data protection delegate if there is one). Present the views of the data subjects or their representatives.",
-					"title": "DPO and data subjects' opinions"
+					"short_help": "Iepazīstiniet ar personas, kura ir atbildīga par datu aizsardzību un privātuma jautājumiem (datu aizsardzības pārstāvis, ja tāds ir), ieteikumu. Norādiet datu subjektu vai viņu pārstāvju viedokļus.",
+					"title": "DPO un datu subjektu viedokļi"
 				},
 				"4": {
-					"title": "Validate the PIA"
+					"title": "PIA validēšana"
 				},
 				"5": {
 					"title": "Rejected PIA"
 				}
 			},
-			"short_help": "This section allows you to prepare and formalise the PIA validation.",
-			"title": "Validation"
+			"short_help": "Šajā sadaļā varat sagatavot un noformēt PIA validāciju.",
+			"title": "Validācija"
 		}
 	},
 	"settings": {
-		"content": "Please, provide the address (URL) of the remote server:",
-		"title": "Settings",
-		"update": "Update URL"
+		"content": "Lūdzu, norādiet attālinātā servera adresi (URL):",
+		"title": "Iestatījumi",
+		"update": "Atjaunināt URL"
 	},
 	"summary": {
 		"action_plan": {
-			"fundamental_principles": "Fundamental principles",
-			"implementation_date": "Expected date of implementation",
-			"implementation_responsible": "Responsible for implementation",
-			"measures": "Existing or planned measures",
-			"no_action_plan": "No action plan recorded.",
-			"risks": "Risks",
-			"title": "Action plan"
+			"fundamental_principles": "Pamatprincipi",
+			"implementation_date": "Paredzamais ieviešanas datums",
+			"implementation_responsible": "Par ieviešanu atbildīgā persona",
+			"measures": "Esošie vai plānotie pasākumi",
+			"no_action_plan": "Nav reģistrēta rīcības plāna.",
+			"risks": "Riski",
+			"title": "Rīcības plāns"
 		},
 		"actions": {
-			"complete_download": "Download the full report",
-			"complete_download_desc": "Export in a .zip archive all the report content (.doc and pictures), attachments and the action plan in a .csv format.",
-			"individual_download": "Download elements of the report",
-			"individual_download_desc": "Export specific elements of the report.",
-			"individual_download_doc": "Texts (.doc)",
-			"individual_download_images": "Visual elements (.png) including the risk overview, the risk mapping and the action plan.",
-			"individual_download_json": "TO TRANSLATE - Report to import into the PIA tool (.json file)",
-			"individual_download_select": "Select elements to export:",
-			"individual_to_download": "Download",
-			"print": "Print the report",
-			"print_and_download": "Print and download"
+			"complete_download": "Lejupielādēt pilnu ziņojumu",
+			"complete_download_desc": "Eksportēt .zip arhīvā visu ziņojuma saturu (.doc un attēlus), pielikumus un rīcības plānu .csv formātā.",
+			"individual_download": "Lejupielādēt ziņojuma elementus",
+			"individual_download_desc": "Eksportēt konkrētus ziņojuma elementus.",
+			"individual_download_doc": "Teksti (.doc)",
+			"individual_download_images": "Vizuālie elementi (.png), tostarp risku pārskats, risku kartēšana un rīcības plāns.",
+			"individual_download_json": "TULKOŠANAI — ziņojums par importēšanu uz PIA rīku (.json fails)",
+			"individual_download_select": "Atlasiet eksportējamos elementus:",
+			"individual_to_download": "Lejupielādēt",
+			"print": "Drukāt ziņojumu",
+			"print_and_download": "Drukāt un lejupielādēt"
 		},
-		"attachments": "Attachments",
-		"concerned_people_name": "Concerned people opinions",
-		"concerned_people_opinion": "Concerned people opinions",
-		"concerned_people_searched_opinion": "Search of concerned people opinion",
-		"concerned_people_status": "Concerned people statuses",
-		"concerned_people_unsearched_opinion_comment": "Reason why concerned people opinion wasn't requested",
+		"attachments": "Pielikumi",
+		"concerned_people_name": "Iesaistīto cilvēku viedokļi",
+		"concerned_people_opinion": "Iesaistīto cilvēku viedokļi",
+		"concerned_people_searched_opinion": "Iesaistīto cilvēku viedokļu noskaidrošana",
+		"concerned_people_status": "Iesaistīto cilvēku statusi",
+		"concerned_people_unsearched_opinion_comment": "Iemesls, kāpēc iesaistīto cilvēku viedokļi nav pieprasīti",
 		"content_choice": [
-			"The treatment should not be used.",
-			"The treatment could be implemented."
+			"Apstrādi nevajadzētu lietot.",
+			“Apstrādi varētu īstenot."
 		],
-		"creation_date": "Creation date",
-		"csv_action_plan_comment": "Action plan comment",
-		"csv_evaluation_comment": "Evaluation comment",
-		"csv_file_title": "action-plan",
-		"csv_implement_date": "Estimated implementation date",
-		"csv_people_in_charge": "Person in charge",
-		"csv_section": "Section",
-		"csv_title_object": "Title",
-		"download_csv": "Action plan (.csv)",
-		"dpo_name": "DPO's name",
-		"dpo_opinion": "DPO's opinion",
-		"dpo_status": "DPO's status",
+		"creation_date": "Izveides datums",
+		"csv_action_plan_comment": "Rīcības plāna komentārs",
+		"csv_evaluation_comment": "Novērtējuma komentārs",
+		"csv_file_title": "rīcības plāns"
+		"csv_implement_date": "Paredzamais ieviešanas datums",
+		"csv_people_in_charge": "Atbildīgā persona",
+		"csv_section": "Sadaļa",
+		"csv_title_object": "Nosaukums",
+		"download_csv": "Rīcības plāns (.csv)",
+		"dpo_name": "DPO vārds",
+		"dpo_opinion": "DPO viedoklis",
+		"dpo_status": "DPO statuss",
 		"gauges": {
-			"1": "Negligible",
-			"2": "Limited",
-			"3": "Important",
-			"4": "Maximum"
+			"1": "Nenozīmīgs",
+			"2": "Ierobežots",
+			"3": "Svarīgs",
+			"4": "Maksimums"
 		},
-		"modification_made": "Modifications made",
-		"people_search_status_nok": "Concerned people opinion wasn't requested.",
-		"people_search_status_ok": "Concerned people opinion was requested.",
-		"pia_assessor": "Assessor's name",
-		"pia_author": "Author's name",
+		"modification_made": "Veiktās modifikācijas",
+		"people_search_status_nok": "Iesaistīto cilvēku viedoklis netika pieprasīts.",
+		"people_search_status_ok": "Iesaistīto cilvēku viedoklis tika pieprasīts",
+		"pia_assessor": "Novērtētāja vārds,uzvārds",
+		"pia_author": "Autora vārds, uzvārds",
 		"pia_name": "PIA",
-		"pia_validator": "Validator's name",
-		"preview_dpo_opinion": "TO TRANSLATE - DPO and data subjects opinion",
-		"preview_edition": "Editing",
-		"preview_evaluation": "Evaluation",
-		"preview_no_data": "No data to display.",
-		"preview_status": "Status",
-		"preview_subtitle": "General information",
-		"preview_title": "Preview",
-		"preview_validation": "Validation",
-		"preview_validation_section": "Validation",
-		"previous_page": "Back to previous page",
-		"rejection_reason": "Rejection reason",
+		"pia_validator": "Validētāja vārds, uzvārds",
+		"preview_dpo_opinion": "TULKOŠANAI — DPO un datu subjektu viedoklis",
+		"preview_edition": "Rediģēšana",
+		"preview_evaluation": "Novērtējums",
+		"preview_no_data": "Nav datu, ko parādīt.",
+		"preview_status": "Statuss",
+		"preview_subtitle": "Vispārīga informācija",
+		"preview_title": "Priekšskatījums":
+		"preview_validation": "Validēšana":
+		"preview_validation_section": "Validēšana":
+		"previous_page": "Atpakaļ uz iepriekšējo lapu",
+		"rejection_reason": "Noraidīšanas iemesls",
 		"revision": {
-			"current_version": "Current version",
-			"pia_version": "PIA versions",
-			"restore_version": "Restore",
-			"revision": "Versions and revision",
-			"save": "Create a new version",
-			"show": "Display the {{length}} versions"
+			"current_version": "Pašreizējā versija",
+			"pia_version": "PIA versijas",
+			"restore_version": "Atjaunot",
+			"revision": "Versijas un pārskatījums",
+			"save": "Izveidot jaunu versiju",
+			"show": "Parādīt {{length}} versijas"
 		},
-		"risks_cartography_title": "Risk mapping",
-		"risks_overview_title": "Risks overview",
-		"title": "PIA information"
+		"risks_cartography_title": "Risku kartēšana",
+		"risks_overview_title": "Risku pārskats",
+		"title": "PIA informācija"
 	},
 	"validation_page": {
-		"add_signed_pia": "Add the signed PIA",
-		"after_reading": "After reading full PIA relating to the data processing linked to ",
+		"add_signed_pia": "Pievienot parakstīto PIA",
+		"after_reading": "Pēc PIA pilnīgas izlasīšanas saistībā ar datu apstrādi, kas saistīta ar ",
 		"button": {
-			"rejection": "Reject PIA",
-			"signed_validation": "Approve PIA <br>(signed)",
-			"simple_validation": "Approve PIA <br>(direct)"
+			"rejection": "Noraidīt PIA",
+			"signed_validation": "Apstiprināt PIA <br>(parakstīts)",
+			"simple_validation": "Apstiprināt PIA <br>(tieši)"
 		},
-		"confirmation1": "I attest that the context of the processing described in the PIA is consistent with the reality.",
-		"confirmation2": "I attest that I am aware of the risks depending on the existing or planned measures.",
-		"confirmation3": "I ratify the corrective actions indicated in the action plan.",
-		"confirmation4": "I commit to implement as quickly as possible the indicated corrective actions.",
-		"latest_signed_attachment": "Last signed attachment",
-		"mandatory_fields": "All boxes must be checked",
-		"remove_attachment": "Remove the attachment",
-		"responsible": "Person accountable for validating the PIA: ",
-		"signed_attachments_history": "Signed attachments history",
+		"confirmation1": "Apliecinu, ka PIA aprakstītās apstrādes konteksts atbilst realitātei.",
+		"confirmation2": "Apliecinu, ka apzinos riskus atkarībā no esošajiem vai plānotajiem pasākumiem.",
+		"confirmation3": "Apstiprinu rīcības plānā norādītās korekcijas darbības.",
+		"confirmation4": "Apņemos pēc iespējas ātrāk īstenot norādītās korekcijas darbības.",
+		"latest_signed_attachment": "Pēdējais parakstītais pielikums",
+		"mandatory_fields": "Jāatzīmē visas rūtiņas",
+		"remove_attachment": "Noņemiet pielikumu",
+		"responsible": "Par PIA validēšanu atbildīgā persona: ",
+		"signed_attachments_history": "Parakstīto pielikumu vēsture",
 		"tools": {
-			"dashboard": "Dashboard",
-			"display_pia": "Display report"
+			"dashboard": "Informācijas panelis",
+			"display_pia": "Displeja ziņojums"
 		},
-		"validated_pia_with_signature": "Approved",
-		"waiting_for_signature": "Pending signed PIA"
+		"validated_pia_with_signature": "Apstiprināts",
+		"waiting_for_signature": “Gaida parakstītu PIA"
 	}
 }
